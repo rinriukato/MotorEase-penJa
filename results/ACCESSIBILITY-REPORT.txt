@@ -1,0 +1,59 @@
+Expanding Sections ---------------------------------
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+18_com.rtbishop.look4sat_Top_Down_95.json: Closable
+25_com.ensoft.imgurviewer_Top_Down_12.json: Closable
+
+
+Persisting Elements ---------------------------------
+acr.browser.lightning: No Violations
+ac.robinson.mediaphone: No Violations
+
+
+Touch Targets ---------------------------------
+com.zeusln.zeus_Bottom_Up_16.png: No Violations
+com.cookiegames.smartcookie_Top_Down_20.png: No Violations
