@@ -1,0 +1,419 @@
+{
+    "img_shape": [
+        1920,
+        1080,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "FAKT",
+            "column_min": 216,
+            "row_min": 10,
+            "column_max": 253,
+            "row_max": 24,
+            "width": 37,
+            "height": 14
+        },
+        {
+            "id": 1,
+            "content": "& 5:00",
+            "column_min": 932,
+            "row_min": 10,
+            "column_max": 1056,
+            "row_max": 52,
+            "width": 124,
+            "height": 42
+        },
+        {
+            "id": 2,
+            "content": "Google Fit",
+            "column_min": 189,
+            "row_min": 108,
+            "column_max": 428,
+            "row_max": 171,
+            "width": 239,
+            "height": 63
+        },
+        {
+            "id": 3,
+            "content": "Google Fit data",
+            "column_min": 43,
+            "row_min": 271,
+            "column_max": 343,
+            "row_max": 317,
+            "width": 300,
+            "height": 46
+        },
+        {
+            "id": 4,
+            "content": "Go",
+            "column_min": 37,
+            "row_min": 391,
+            "column_max": 110,
+            "row_max": 435,
+            "width": 73,
+            "height": 44
+        },
+        {
+            "id": 5,
+            "content": "1990",
+            "column_min": 178,
+            "row_min": 382,
+            "column_max": 279,
+            "row_max": 422,
+            "width": 101,
+            "height": 40
+        },
+        {
+            "id": 6,
+            "content": "Fri , Jun 15",
+            "column_min": 179,
+            "row_min": 445,
+            "column_max": 584,
+            "row_max": 538,
+            "width": 405,
+            "height": 93
+        },
+        {
+            "id": 7,
+            "content": "May 1989",
+            "column_min": 447,
+            "row_min": 663,
+            "column_max": 630,
+            "row_max": 712,
+            "width": 183,
+            "height": 49
+        },
+        {
+            "id": 8,
+            "content": "Bod",
+            "column_min": 42,
+            "row_min": 745,
+            "column_max": 111,
+            "row_max": 792,
+            "width": 69,
+            "height": 47
+        },
+        {
+            "id": 9,
+            "content": "MT",
+            "column_min": 310,
+            "row_min": 791,
+            "column_max": 440,
+            "row_max": 824,
+            "width": 130,
+            "height": 33
+        },
+        {
+            "id": 10,
+            "content": "Da",
+            "column_min": 44,
+            "row_min": 869,
+            "column_max": 109,
+            "row_max": 910,
+            "width": 65,
+            "height": 41
+        },
+        {
+            "id": 11,
+            "content": "ed",
+            "column_min": 970,
+            "row_min": 866,
+            "column_max": 1012,
+            "row_max": 912,
+            "width": 42,
+            "height": 46
+        },
+        {
+            "id": 12,
+            "content": "Bid",
+            "column_min": 47,
+            "row_min": 994,
+            "column_max": 110,
+            "row_max": 1038,
+            "width": 63,
+            "height": 44
+        },
+        {
+            "id": 13,
+            "content": "10",
+            "column_min": 521,
+            "row_min": 999,
+            "column_max": 556,
+            "row_max": 1029,
+            "width": 35,
+            "height": 30
+        },
+        {
+            "id": 14,
+            "content": "11",
+            "column_min": 629,
+            "row_min": 999,
+            "column_max": 658,
+            "row_max": 1027,
+            "width": 29,
+            "height": 28
+        },
+        {
+            "id": 15,
+            "content": "12",
+            "column_min": 736,
+            "row_min": 999,
+            "column_max": 771,
+            "row_max": 1027,
+            "width": 35,
+            "height": 28
+        },
+        {
+            "id": 16,
+            "content": "13",
+            "column_min": 843,
+            "row_min": 998,
+            "column_max": 877,
+            "row_max": 1027,
+            "width": 34,
+            "height": 29
+        },
+        {
+            "id": 17,
+            "content": "ed",
+            "column_min": 967,
+            "row_min": 992,
+            "column_max": 1012,
+            "row_max": 1032,
+            "width": 45,
+            "height": 40
+        },
+        {
+            "id": 18,
+            "content": "14",
+            "column_min": 199,
+            "row_min": 1103,
+            "column_max": 235,
+            "row_max": 1133,
+            "width": 36,
+            "height": 30
+        },
+        {
+            "id": 19,
+            "content": "15",
+            "column_min": 306,
+            "row_min": 1103,
+            "column_max": 341,
+            "row_max": 1131,
+            "width": 35,
+            "height": 28
+        },
+        {
+            "id": 20,
+            "content": "16",
+            "column_min": 414,
+            "row_min": 1103,
+            "column_max": 449,
+            "row_max": 1132,
+            "width": 35,
+            "height": 29
+        },
+        {
+            "id": 21,
+            "content": "17",
+            "column_min": 521,
+            "row_min": 1104,
+            "column_max": 556,
+            "row_max": 1132,
+            "width": 35,
+            "height": 28
+        },
+        {
+            "id": 22,
+            "content": "19",
+            "column_min": 736,
+            "row_min": 1103,
+            "column_max": 770,
+            "row_max": 1133,
+            "width": 34,
+            "height": 30
+        },
+        {
+            "id": 23,
+            "content": "18",
+            "column_min": 630,
+            "row_min": 1096,
+            "column_max": 666,
+            "row_max": 1140,
+            "width": 36,
+            "height": 44
+        },
+        {
+            "id": 24,
+            "content": "20",
+            "column_min": 842,
+            "row_min": 1103,
+            "column_max": 878,
+            "row_max": 1133,
+            "width": 36,
+            "height": 30
+        },
+        {
+            "id": 25,
+            "content": "We",
+            "column_min": 36,
+            "row_min": 1118,
+            "column_max": 118,
+            "row_max": 1162,
+            "width": 82,
+            "height": 44
+        },
+        {
+            "id": 26,
+            "content": "ed",
+            "column_min": 966,
+            "row_min": 1117,
+            "column_max": 1014,
+            "row_max": 1160,
+            "width": 48,
+            "height": 43
+        },
+        {
+            "id": 27,
+            "content": "21",
+            "column_min": 197,
+            "row_min": 1208,
+            "column_max": 230,
+            "row_max": 1240,
+            "width": 33,
+            "height": 32
+        },
+        {
+            "id": 28,
+            "content": "22",
+            "column_min": 304,
+            "row_min": 1209,
+            "column_max": 341,
+            "row_max": 1239,
+            "width": 37,
+            "height": 30
+        },
+        {
+            "id": 29,
+            "content": "23",
+            "column_min": 412,
+            "row_min": 1208,
+            "column_max": 449,
+            "row_max": 1240,
+            "width": 37,
+            "height": 32
+        },
+        {
+            "id": 30,
+            "content": "24",
+            "column_min": 519,
+            "row_min": 1209,
+            "column_max": 557,
+            "row_max": 1239,
+            "width": 38,
+            "height": 30
+        },
+        {
+            "id": 31,
+            "content": "25",
+            "column_min": 626,
+            "row_min": 1208,
+            "column_max": 663,
+            "row_max": 1239,
+            "width": 37,
+            "height": 31
+        },
+        {
+            "id": 32,
+            "content": "26",
+            "column_min": 733,
+            "row_min": 1208,
+            "column_max": 770,
+            "row_max": 1239,
+            "width": 37,
+            "height": 31
+        },
+        {
+            "id": 33,
+            "content": "27",
+            "column_min": 840,
+            "row_min": 1208,
+            "column_max": 878,
+            "row_max": 1240,
+            "width": 38,
+            "height": 32
+        },
+        {
+            "id": 34,
+            "content": "Hel",
+            "column_min": 42,
+            "row_min": 1243,
+            "column_max": 117,
+            "row_max": 1287,
+            "width": 75,
+            "height": 44
+        },
+        {
+            "id": 35,
+            "content": "ed",
+            "column_min": 972,
+            "row_min": 1244,
+            "column_max": 1012,
+            "row_max": 1289,
+            "width": 40,
+            "height": 45
+        },
+        {
+            "id": 36,
+            "content": "28",
+            "column_min": 198,
+            "row_min": 1313,
+            "column_max": 234,
+            "row_max": 1343,
+            "width": 36,
+            "height": 30
+        },
+        {
+            "id": 37,
+            "content": "29",
+            "column_min": 302,
+            "row_min": 1304,
+            "column_max": 340,
+            "row_max": 1346,
+            "width": 38,
+            "height": 42
+        },
+        {
+            "id": 38,
+            "content": "30",
+            "column_min": 408,
+            "row_min": 1302,
+            "column_max": 450,
+            "row_max": 1346,
+            "width": 42,
+            "height": 44
+        },
+        {
+            "id": 39,
+            "content": "31",
+            "column_min": 520,
+            "row_min": 1313,
+            "column_max": 551,
+            "row_max": 1342,
+            "width": 31,
+            "height": 29
+        },
+        {
+            "id": 40,
+            "content": "DONE",
+            "column_min": 797,
+            "row_min": 1435,
+            "column_max": 903,
+            "row_max": 1471,
+            "width": 106,
+            "height": 36
+        }
+    ]
+}

@@ -1,0 +1,1099 @@
+{
+    "img_shape": [
+        1719,
+        1366,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "Home",
+            "column_min": 31,
+            "row_min": 4,
+            "column_max": 62,
+            "row_max": 16,
+            "width": 31,
+            "height": 12
+        },
+        {
+            "id": 1,
+            "content": "Mail",
+            "column_min": 100,
+            "row_min": 4,
+            "column_max": 121,
+            "row_max": 16,
+            "width": 21,
+            "height": 12
+        },
+        {
+            "id": 2,
+            "content": "TV",
+            "column_min": 157,
+            "row_min": 4,
+            "column_max": 172,
+            "row_max": 15,
+            "width": 15,
+            "height": 11
+        },
+        {
+            "id": 3,
+            "content": "News",
+            "column_min": 207,
+            "row_min": 2,
+            "column_max": 236,
+            "row_max": 15,
+            "width": 29,
+            "height": 13
+        },
+        {
+            "id": 4,
+            "content": "Finance",
+            "column_min": 274,
+            "row_min": 2,
+            "column_max": 317,
+            "row_max": 16,
+            "width": 43,
+            "height": 14
+        },
+        {
+            "id": 5,
+            "content": "Sport",
+            "column_min": 353,
+            "row_min": 3,
+            "column_max": 381,
+            "row_max": 16,
+            "width": 28,
+            "height": 13
+        },
+        {
+            "id": 6,
+            "content": "Lifestyle",
+            "column_min": 418,
+            "row_min": 4,
+            "column_max": 463,
+            "row_max": 19,
+            "width": 45,
+            "height": 15
+        },
+        {
+            "id": 7,
+            "content": "Entertainment",
+            "column_min": 501,
+            "row_min": 3,
+            "column_max": 579,
+            "row_max": 17,
+            "width": 78,
+            "height": 14
+        },
+        {
+            "id": 8,
+            "content": "Weather",
+            "column_min": 615,
+            "row_min": 2,
+            "column_max": 662,
+            "row_max": 16,
+            "width": 47,
+            "height": 14
+        },
+        {
+            "id": 9,
+            "content": "Answers",
+            "column_min": 698,
+            "row_min": 3,
+            "column_max": 746,
+            "row_max": 17,
+            "width": 48,
+            "height": 14
+        },
+        {
+            "id": 10,
+            "content": "Mobile",
+            "column_min": 783,
+            "row_min": 3,
+            "column_max": 818,
+            "row_max": 16,
+            "width": 35,
+            "height": 13
+        },
+        {
+            "id": 11,
+            "content": "Make Yahoo your homepage",
+            "column_min": 1130,
+            "row_min": 2,
+            "column_max": 1308,
+            "row_max": 20,
+            "width": 178,
+            "height": 18
+        },
+        {
+            "id": 12,
+            "content": "YAHOO !",
+            "column_min": 48,
+            "row_min": 40,
+            "column_max": 237,
+            "row_max": 90,
+            "width": 189,
+            "height": 50
+        },
+        {
+            "id": 13,
+            "content": "Sign in",
+            "column_min": 1118,
+            "row_min": 60,
+            "column_max": 1159,
+            "row_max": 74,
+            "width": 41,
+            "height": 14
+        },
+        {
+            "id": 14,
+            "content": "Mail",
+            "column_min": 1257,
+            "row_min": 59,
+            "column_max": 1283,
+            "row_max": 72,
+            "width": 26,
+            "height": 13
+        },
+        {
+            "id": 15,
+            "content": "Mail",
+            "column_min": 81,
+            "row_min": 117,
+            "column_max": 110,
+            "row_max": 130,
+            "width": 29,
+            "height": 13
+        },
+        {
+            "id": 16,
+            "content": "News",
+            "column_min": 151,
+            "row_min": 117,
+            "column_max": 186,
+            "row_max": 129,
+            "width": 35,
+            "height": 12
+        },
+        {
+            "id": 17,
+            "content": "Finance",
+            "column_min": 228,
+            "row_min": 118,
+            "column_max": 281,
+            "row_max": 130,
+            "width": 53,
+            "height": 12
+        },
+        {
+            "id": 18,
+            "content": "Sport",
+            "column_min": 321,
+            "row_min": 117,
+            "column_max": 357,
+            "row_max": 131,
+            "width": 36,
+            "height": 14
+        },
+        {
+            "id": 19,
+            "content": "Lifestyle",
+            "column_min": 397,
+            "row_min": 116,
+            "column_max": 453,
+            "row_max": 134,
+            "width": 56,
+            "height": 18
+        },
+        {
+            "id": 20,
+            "content": "Entertainment",
+            "column_min": 495,
+            "row_min": 116,
+            "column_max": 592,
+            "row_max": 131,
+            "width": 97,
+            "height": 15
+        },
+        {
+            "id": 21,
+            "content": "Weather",
+            "column_min": 631,
+            "row_min": 117,
+            "column_max": 688,
+            "row_max": 131,
+            "width": 57,
+            "height": 14
+        },
+        {
+            "id": 22,
+            "content": "More ...",
+            "column_min": 728,
+            "row_min": 117,
+            "column_max": 776,
+            "row_max": 132,
+            "width": 48,
+            "height": 15
+        },
+        {
+            "id": 23,
+            "content": "YAHOO ! TV",
+            "column_min": 1005,
+            "row_min": 193,
+            "column_max": 1092,
+            "row_max": 211,
+            "width": 87,
+            "height": 18
+        },
+        {
+            "id": 24,
+            "content": "News",
+            "column_min": 1258,
+            "row_min": 231,
+            "column_max": 1292,
+            "row_max": 244,
+            "width": 34,
+            "height": 13
+        },
+        {
+            "id": 25,
+            "content": "More",
+            "column_min": 1258,
+            "row_min": 287,
+            "column_max": 1286,
+            "row_max": 302,
+            "width": 28,
+            "height": 15
+        },
+        {
+            "id": 26,
+            "content": "Family detail holiday eerie feeling snap after near spot sinister in",
+            "column_min": 622,
+            "row_min": 218,
+            "column_max": 882,
+            "row_max": 301,
+            "width": 260,
+            "height": 83
+        },
+        {
+            "id": 27,
+            "content": "water",
+            "column_min": 624,
+            "row_min": 302,
+            "column_max": 683,
+            "row_max": 322,
+            "width": 59,
+            "height": 20
+        },
+        {
+            "id": 28,
+            "content": "Emma Murphy said she had an eerie feeling",
+            "column_min": 618,
+            "row_min": 336,
+            "column_max": 879,
+            "row_max": 354,
+            "width": 261,
+            "height": 18
+        },
+        {
+            "id": 29,
+            "content": "when the family pulled up at a billabong in the",
+            "column_min": 617,
+            "row_min": 354,
+            "column_max": 887,
+            "row_max": 371,
+            "width": 270,
+            "height": 17
+        },
+        {
+            "id": 30,
+            "content": "Northern Territory",
+            "column_min": 624,
+            "row_min": 370,
+            "column_max": 719,
+            "row_max": 388,
+            "width": 95,
+            "height": 18
+        },
+        {
+            "id": 31,
+            "content": "Read More",
+            "column_min": 624,
+            "row_min": 393,
+            "column_max": 690,
+            "row_max": 407,
+            "width": 66,
+            "height": 14
+        },
+        {
+            "id": 32,
+            "content": "The other Brazilian prison arrest",
+            "column_min": 1035,
+            "row_min": 382,
+            "column_max": 1239,
+            "row_max": 398,
+            "width": 204,
+            "height": 16
+        },
+        {
+            "id": 33,
+            "content": "Canberra , ACT",
+            "column_min": 994,
+            "row_min": 443,
+            "column_max": 1095,
+            "row_max": 458,
+            "width": 101,
+            "height": 15
+        },
+        {
+            "id": 34,
+            "content": "Today",
+            "column_min": 993,
+            "row_min": 477,
+            "column_max": 1029,
+            "row_max": 492,
+            "width": 36,
+            "height": 15
+        },
+        {
+            "id": 35,
+            "content": "Thu",
+            "column_min": 1085,
+            "row_min": 479,
+            "column_max": 1107,
+            "row_max": 490,
+            "width": 22,
+            "height": 11
+        },
+        {
+            "id": 36,
+            "content": "Fri",
+            "column_min": 1177,
+            "row_min": 479,
+            "column_max": 1191,
+            "row_max": 492,
+            "width": 14,
+            "height": 13
+        },
+        {
+            "id": 37,
+            "content": "Sat",
+            "column_min": 1261,
+            "row_min": 479,
+            "column_max": 1280,
+            "row_max": 491,
+            "width": 19,
+            "height": 12
+        },
+        {
+            "id": 38,
+            "content": "C3",
+            "column_min": 1166,
+            "row_min": 504,
+            "column_max": 1202,
+            "row_max": 539,
+            "width": 36,
+            "height": 35
+        },
+        {
+            "id": 39,
+            "content": "13",
+            "column_min": 991,
+            "row_min": 543,
+            "column_max": 1002,
+            "row_max": 556,
+            "width": 11,
+            "height": 13
+        },
+        {
+            "id": 40,
+            "content": "-3",
+            "column_min": 1013,
+            "row_min": 543,
+            "column_max": 1021,
+            "row_max": 556,
+            "width": 8,
+            "height": 13
+        },
+        {
+            "id": 41,
+            "content": "-2",
+            "column_min": 1265,
+            "row_min": 543,
+            "column_max": 1273,
+            "row_max": 556,
+            "width": 8,
+            "height": 13
+        },
+        {
+            "id": 42,
+            "content": "The Block contestants",
+            "column_min": 53,
+            "row_min": 566,
+            "column_max": 179,
+            "row_max": 581,
+            "width": 126,
+            "height": 15
+        },
+        {
+            "id": 43,
+            "content": "furious as secret is exposed",
+            "column_min": 53,
+            "row_min": 581,
+            "column_max": 213,
+            "row_max": 596,
+            "width": 160,
+            "height": 15
+        },
+        {
+            "id": 44,
+            "content": "Tennis world in shock over",
+            "column_min": 231,
+            "row_min": 566,
+            "column_max": 381,
+            "row_max": 579,
+            "width": 150,
+            "height": 13
+        },
+        {
+            "id": 45,
+            "content": "unthinkable Ash Barty drama",
+            "column_min": 232,
+            "row_min": 581,
+            "column_max": 393,
+            "row_max": 595,
+            "width": 161,
+            "height": 14
+        },
+        {
+            "id": 46,
+            "content": "Stock market crash has",
+            "column_min": 409,
+            "row_min": 566,
+            "column_max": 544,
+            "row_max": 579,
+            "width": 135,
+            "height": 13
+        },
+        {
+            "id": 47,
+            "content": "Carrie Bickmore moment",
+            "column_min": 586,
+            "row_min": 564,
+            "column_max": 728,
+            "row_max": 578,
+            "width": 142,
+            "height": 14
+        },
+        {
+            "id": 48,
+            "content": "wiped $ 5,500 off your savings forces co host to step in",
+            "column_min": 409,
+            "row_min": 580,
+            "column_max": 722,
+            "row_max": 595,
+            "width": 313,
+            "height": 15
+        },
+        {
+            "id": 49,
+            "content": "Star quits show over racial",
+            "column_min": 766,
+            "row_min": 566,
+            "column_max": 917,
+            "row_max": 580,
+            "width": 151,
+            "height": 14
+        },
+        {
+            "id": 50,
+            "content": "and sexual harassment",
+            "column_min": 765,
+            "row_min": 580,
+            "column_max": 897,
+            "row_max": 595,
+            "width": 132,
+            "height": 15
+        },
+        {
+            "id": 51,
+            "content": "Featured Picks",
+            "column_min": 994,
+            "row_min": 607,
+            "column_max": 1097,
+            "row_max": 621,
+            "width": 103,
+            "height": 14
+        },
+        {
+            "id": 52,
+            "content": "KENNY",
+            "column_min": 141,
+            "row_min": 622,
+            "column_max": 168,
+            "row_max": 634,
+            "width": 27,
+            "height": 12
+        },
+        {
+            "id": 53,
+            "content": "AND NORINTAN",
+            "column_min": 210,
+            "row_min": 622,
+            "column_max": 266,
+            "row_max": 633,
+            "width": 56,
+            "height": 11
+        },
+        {
+            "id": 54,
+            "content": "4a . 24.03.2016",
+            "column_min": 130,
+            "row_min": 653,
+            "column_max": 180,
+            "row_max": 661,
+            "width": 50,
+            "height": 8
+        },
+        {
+            "id": 55,
+            "content": "15.09.2016 FUKEN",
+            "column_min": 144,
+            "row_min": 661,
+            "column_max": 187,
+            "row_max": 681,
+            "width": 43,
+            "height": 20
+        },
+        {
+            "id": 56,
+            "content": "News Yahoo News Australia",
+            "column_min": 299,
+            "row_min": 626,
+            "column_max": 448,
+            "row_max": 639,
+            "width": 149,
+            "height": 13
+        },
+        {
+            "id": 57,
+            "content": "Man's name considered too rude for a passport",
+            "column_min": 299,
+            "row_min": 647,
+            "column_max": 737,
+            "row_max": 671,
+            "width": 438,
+            "height": 24
+        },
+        {
+            "id": 58,
+            "content": "Kenny Kennard changed his name for a laugh but now he can't get a new passport with",
+            "column_min": 299,
+            "row_min": 675,
+            "column_max": 845,
+            "row_max": 693,
+            "width": 546,
+            "height": 18
+        },
+        {
+            "id": 59,
+            "content": "authorities advising his surname is too offensive .",
+            "column_min": 299,
+            "row_min": 692,
+            "column_max": 603,
+            "row_max": 709,
+            "width": 304,
+            "height": 17
+        },
+        {
+            "id": 60,
+            "content": "Extraordinary Adam Goodes",
+            "column_min": 1076,
+            "row_min": 644,
+            "column_max": 1231,
+            "row_max": 659,
+            "width": 155,
+            "height": 15
+        },
+        {
+            "id": 61,
+            "content": "conspiracy theory in Ben Simmons",
+            "column_min": 1074,
+            "row_min": 659,
+            "column_max": 1270,
+            "row_max": 674,
+            "width": 196,
+            "height": 15
+        },
+        {
+            "id": 62,
+            "content": "race row",
+            "column_min": 1075,
+            "row_min": 678,
+            "column_max": 1124,
+            "row_max": 689,
+            "width": 49,
+            "height": 11
+        },
+        {
+            "id": 63,
+            "content": "Yahoo Sport Australia",
+            "column_min": 1075,
+            "row_min": 693,
+            "column_max": 1179,
+            "row_max": 706,
+            "width": 104,
+            "height": 13
+        },
+        {
+            "id": 64,
+            "content": "S.",
+            "column_min": 66,
+            "row_min": 700,
+            "column_max": 69,
+            "row_max": 709,
+            "width": 3,
+            "height": 9
+        },
+        {
+            "id": 65,
+            "content": "PASSPORT",
+            "column_min": 194,
+            "row_min": 705,
+            "column_max": 251,
+            "row_max": 725,
+            "width": 57,
+            "height": 20
+        },
+        {
+            "id": 66,
+            "content": "8. AMA",
+            "column_min": 130,
+            "row_min": 733,
+            "column_max": 159,
+            "row_max": 742,
+            "width": 29,
+            "height": 9
+        },
+        {
+            "id": 67,
+            "content": "Meghan Markle's secret baby",
+            "column_min": 1076,
+            "row_min": 730,
+            "column_max": 1241,
+            "row_max": 745,
+            "width": 165,
+            "height": 15
+        },
+        {
+            "id": 68,
+            "content": "shower request revealed",
+            "column_min": 1075,
+            "row_min": 745,
+            "column_max": 1214,
+            "row_max": 757,
+            "width": 139,
+            "height": 12
+        },
+        {
+            "id": 69,
+            "content": "Yahoo Lifestyle",
+            "column_min": 1075,
+            "row_min": 763,
+            "column_max": 1149,
+            "row_max": 775,
+            "width": 74,
+            "height": 12
+        },
+        {
+            "id": 70,
+            "content": "Lifestyle Yahoo Lifestyle",
+            "column_min": 299,
+            "row_min": 772,
+            "column_max": 434,
+            "row_max": 788,
+            "width": 135,
+            "height": 16
+        },
+        {
+            "id": 71,
+            "content": "Survivor contestant hits back after outcry over skimpy",
+            "column_min": 299,
+            "row_min": 794,
+            "column_max": 804,
+            "row_max": 816,
+            "width": 505,
+            "height": 22
+        },
+        {
+            "id": 72,
+            "content": "bikini",
+            "column_min": 298,
+            "row_min": 818,
+            "column_max": 345,
+            "row_max": 836,
+            "width": 47,
+            "height": 18
+        },
+        {
+            "id": 73,
+            "content": "Fans thought she was risking a wardrobe malfunction during a very physical challenge .",
+            "column_min": 299,
+            "row_min": 847,
+            "column_max": 842,
+            "row_max": 864,
+            "width": 543,
+            "height": 17
+        },
+        {
+            "id": 74,
+            "content": "100 % AUSSIE",
+            "column_min": 1001,
+            "row_min": 817,
+            "column_max": 1041,
+            "row_max": 828,
+            "width": 40,
+            "height": 11
+        },
+        {
+            "id": 75,
+            "content": "24.9 .",
+            "column_min": 1004,
+            "row_min": 830,
+            "column_max": 1029,
+            "row_max": 843,
+            "width": 25,
+            "height": 13
+        },
+        {
+            "id": 76,
+            "content": "Can you please explain :",
+            "column_min": 1078,
+            "row_min": 816,
+            "column_max": 1213,
+            "row_max": 830,
+            "width": 135,
+            "height": 14
+        },
+        {
+            "id": 77,
+            "content": "Supermarket typos , packaging",
+            "column_min": 1077,
+            "row_min": 831,
+            "column_max": 1247,
+            "row_max": 846,
+            "width": 170,
+            "height": 15
+        },
+        {
+            "id": 78,
+            "content": "errors exposed",
+            "column_min": 1075,
+            "row_min": 846,
+            "column_max": 1161,
+            "row_max": 859,
+            "width": 86,
+            "height": 13
+        },
+        {
+            "id": 79,
+            "content": "Yahoo Finance",
+            "column_min": 1075,
+            "row_min": 864,
+            "column_max": 1145,
+            "row_max": 875,
+            "width": 70,
+            "height": 11
+        },
+        {
+            "id": 80,
+            "content": "Sports Yahoo Sport Australia",
+            "column_min": 299,
+            "row_min": 920,
+            "column_max": 451,
+            "row_max": 937,
+            "width": 152,
+            "height": 17
+        },
+        {
+            "id": 81,
+            "content": "Absolute joke : NRL world rages over Sam Burgess",
+            "column_min": 303,
+            "row_min": 942,
+            "column_max": 773,
+            "row_max": 965,
+            "width": 470,
+            "height": 23
+        },
+        {
+            "id": 82,
+            "content": "disgrace",
+            "column_min": 306,
+            "row_min": 965,
+            "column_max": 382,
+            "row_max": 986,
+            "width": 76,
+            "height": 21
+        },
+        {
+            "id": 83,
+            "content": "Fans and commentators are fuming .",
+            "column_min": 299,
+            "row_min": 993,
+            "column_max": 525,
+            "row_max": 1008,
+            "width": 226,
+            "height": 15
+        },
+        {
+            "id": 84,
+            "content": "Advertise With Us Company Info Jobs",
+            "column_min": 1029,
+            "row_min": 927,
+            "column_max": 1249,
+            "row_max": 944,
+            "width": 220,
+            "height": 17
+        },
+        {
+            "id": 85,
+            "content": "Privacy Updated Safety Terms Updated Help",
+            "column_min": 1002,
+            "row_min": 949,
+            "column_max": 1278,
+            "row_max": 967,
+            "width": 276,
+            "height": 18
+        },
+        {
+            "id": 86,
+            "content": "Feedback",
+            "column_min": 1113,
+            "row_min": 971,
+            "column_max": 1168,
+            "row_max": 987,
+            "width": 55,
+            "height": 16
+        },
+        {
+            "id": 87,
+            "content": "News Yahoo News Australia",
+            "column_min": 299,
+            "row_min": 1067,
+            "column_max": 448,
+            "row_max": 1080,
+            "width": 149,
+            "height": 13
+        },
+        {
+            "id": 88,
+            "content": "Mum outraged at disgusting $ 107 fine after filling up at",
+            "column_min": 299,
+            "row_min": 1089,
+            "column_max": 818,
+            "row_max": 1111,
+            "width": 519,
+            "height": 22
+        },
+        {
+            "id": 89,
+            "content": "petrol station",
+            "column_min": 298,
+            "row_min": 1113,
+            "column_max": 417,
+            "row_max": 1135,
+            "width": 119,
+            "height": 22
+        },
+        {
+            "id": 90,
+            "content": "Ruth Pickering stopped at a petrol station to fill up on the way to picking up her daughter",
+            "column_min": 299,
+            "row_min": 1140,
+            "column_max": 853,
+            "row_max": 1157,
+            "width": 554,
+            "height": 17
+        },
+        {
+            "id": 91,
+            "content": "from East Midlands Airport",
+            "column_min": 298,
+            "row_min": 1157,
+            "column_max": 462,
+            "row_max": 1175,
+            "width": 164,
+            "height": 18
+        },
+        {
+            "id": 92,
+            "content": "Sports Yahoo Sport Australia",
+            "column_min": 299,
+            "row_min": 1214,
+            "column_max": 451,
+            "row_max": 1229,
+            "width": 152,
+            "height": 15
+        },
+        {
+            "id": 93,
+            "content": "Bloody dangerous : Ashes war erupts over bulls **",
+            "column_min": 303,
+            "row_min": 1234,
+            "column_max": 766,
+            "row_max": 1258,
+            "width": 463,
+            "height": 24
+        },
+        {
+            "id": 94,
+            "content": "England move",
+            "column_min": 299,
+            "row_min": 1260,
+            "column_max": 428,
+            "row_max": 1282,
+            "width": 129,
+            "height": 22
+        },
+        {
+            "id": 95,
+            "content": "An Aussie great has slammed England over this video of Jofra Archer terrorising second",
+            "column_min": 298,
+            "row_min": 1287,
+            "column_max": 848,
+            "row_max": 1302,
+            "width": 550,
+            "height": 15
+        },
+        {
+            "id": 96,
+            "content": "XI batsmen .",
+            "column_min": 298,
+            "row_min": 1305,
+            "column_max": 370,
+            "row_max": 1318,
+            "width": 72,
+            "height": 13
+        },
+        {
+            "id": 97,
+            "content": "Lifestyle",
+            "column_min": 299,
+            "row_min": 1360,
+            "column_max": 349,
+            "row_max": 1376,
+            "width": 50,
+            "height": 16
+        },
+        {
+            "id": 98,
+            "content": "Yahoo Lifestyle",
+            "column_min": 362,
+            "row_min": 1360,
+            "column_max": 434,
+            "row_max": 1376,
+            "width": 72,
+            "height": 16
+        },
+        {
+            "id": 99,
+            "content": "Karl Stefanovic's very awkward return to Today show",
+            "column_min": 300,
+            "row_min": 1382,
+            "column_max": 790,
+            "row_max": 1405,
+            "width": 490,
+            "height": 23
+        },
+        {
+            "id": 100,
+            "content": "Georgie Gardner and his replacement Deb Knight didn't veil their sarcasm too well .",
+            "column_min": 299,
+            "row_min": 1410,
+            "column_max": 818,
+            "row_max": 1426,
+            "width": 519,
+            "height": 16
+        },
+        {
+            "id": 101,
+            "content": "Hong Kong's Situation Worse Than Expected : Citi's Chua",
+            "column_min": 299,
+            "row_min": 1506,
+            "column_max": 833,
+            "row_max": 1529,
+            "width": 534,
+            "height": 23
+        },
+        {
+            "id": 102,
+            "content": "Aug 04 -- Johanna Chua , chief Asia Pacific economist at Citigroup Global Markets , talks",
+            "column_min": 298,
+            "row_min": 1536,
+            "column_max": 846,
+            "row_max": 1553,
+            "width": 548,
+            "height": 17
+        },
+        {
+            "id": 103,
+            "content": "about the protests in Hong Kong and the implications for the city's economy . Some ...",
+            "column_min": 299,
+            "row_min": 1555,
+            "column_max": 825,
+            "row_max": 1573,
+            "width": 526,
+            "height": 18
+        },
+        {
+            "id": 104,
+            "content": "Cannot play video",
+            "column_min": 86,
+            "row_min": 1552,
+            "column_max": 239,
+            "row_max": 1575,
+            "width": 153,
+            "height": 23
+        },
+        {
+            "id": 105,
+            "content": "This browser is unsupported . To",
+            "column_min": 57,
+            "row_min": 1575,
+            "column_max": 280,
+            "row_max": 1599,
+            "width": 223,
+            "height": 24
+        },
+        {
+            "id": 106,
+            "content": "video , try another brows",
+            "column_min": 107,
+            "row_min": 1598,
+            "column_max": 271,
+            "row_max": 1613,
+            "width": 164,
+            "height": 15
+        },
+        {
+            "id": 107,
+            "content": "RS . 100-606 .",
+            "column_min": 128,
+            "row_min": 1620,
+            "column_max": 197,
+            "row_max": 1631,
+            "width": 69,
+            "height": 11
+        },
+        {
+            "id": 108,
+            "content": "HH",
+            "column_min": 484,
+            "row_min": 1656,
+            "column_max": 499,
+            "row_max": 1669,
+            "width": 15,
+            "height": 13
+        }
+    ]
+}
