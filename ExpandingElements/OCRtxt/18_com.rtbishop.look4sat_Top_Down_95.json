@@ -1,0 +1,119 @@
+{
+    "img_shape": [
+        955,
+        1080,
+        3
+    ],
+    "texts": [
+        {
+            "row_max": 120,
+            "width": 389,
+            "id": 0,
+            "content": "Manage TLE sources",
+            "row_min": 82,
+            "column_max": 464,
+            "column_min": 75,
+            "height": 38
+        },
+        {
+            "row_max": 189,
+            "width": 384,
+            "id": 1,
+            "content": "Protocol HTTPS only",
+            "row_min": 148,
+            "column_max": 459,
+            "column_min": 75,
+            "height": 41
+        },
+        {
+            "row_max": 247,
+            "width": 162,
+            "id": 2,
+            "content": "TLE source",
+            "row_min": 222,
+            "column_max": 279,
+            "column_min": 117,
+            "height": 25
+        },
+        {
+            "row_max": 319,
+            "width": 255,
+            "id": 3,
+            "content": "Test Test Test",
+            "row_min": 289,
+            "column_max": 370,
+            "column_min": 115,
+            "height": 30
+        },
+        {
+            "row_max": 430,
+            "width": 165,
+            "id": 4,
+            "content": "TLE source",
+            "row_min": 404,
+            "column_max": 281,
+            "column_min": 116,
+            "height": 26
+        },
+        {
+            "row_max": 505,
+            "width": 253,
+            "id": 5,
+            "content": "Test Test Test",
+            "row_min": 468,
+            "column_max": 369,
+            "column_min": 116,
+            "height": 37
+        },
+        {
+            "row_max": 613,
+            "width": 163,
+            "id": 6,
+            "content": "TLE source",
+            "row_min": 587,
+            "column_max": 279,
+            "column_min": 116,
+            "height": 26
+        },
+        {
+            "row_max": 685,
+            "width": 252,
+            "id": 7,
+            "content": "Test Test Test",
+            "row_min": 656,
+            "column_max": 368,
+            "column_min": 116,
+            "height": 29
+        },
+        {
+            "row_max": 841,
+            "width": 129,
+            "id": 8,
+            "content": "Cancel",
+            "row_min": 814,
+            "column_max": 253,
+            "column_min": 124,
+            "height": 27
+        },
+        {
+            "row_max": 150,
+            "width": 43,
+            "id": 9,
+            "content": "+",
+            "row_min": 112,
+            "column_max": 965,
+            "column_min": 922,
+            "height": 38
+        },
+        {
+            "row_max": 849,
+            "width": 132,
+            "id": 10,
+            "content": "Update",
+            "row_min": 812,
+            "column_max": 955,
+            "column_min": 823,
+            "height": 37
+        }
+    ]
+}
