@@ -11,7 +11,7 @@ MIRACLE is a software testing tool aimed at detecting motor impaired user access
 - Below are the list of tools used and experimented with and their versions. Though not all of them were used. 
 
 # Versions/Dependencies 
-Name                    Version                   Build  Channel
+Name                    Version                   Build  Channel\n
 absl-py                   1.2.0                    pypi_0    pypi
 astunparse                1.6.3                    pypi_0    pypi
 beautifulsoup4            4.11.1                   pypi_0    pypi
