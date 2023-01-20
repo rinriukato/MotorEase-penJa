@@ -14,38 +14,72 @@ MIRACLE is a software testing tool aimed at detecting motor impaired user access
 Name                    Version                   Build  Channel
 
 absl-py                   1.2.0                    pypi_0    pypi
+
 astunparse                1.6.3                    pypi_0    pypi
+
 beautifulsoup4            4.11.1                   pypi_0    pypi
+
 blis                      0.7.8                    pypi_0    pypi
+
 bzip2                     1.0.8                h620ffc9_4  
+
 c-ares                    1.18.1               h1a28f6b_0  
+
 ca-certificates           2022.07.19           hca03da5_0  
+
 cachetools                5.2.0                    pypi_0    pypi
+
 catalogue                 2.0.8                    pypi_0    pypi
+
 certifi                   2022.6.15       py310hca03da5_0  
+
 charset-normalizer        2.1.0                    pypi_0    pypi
+
 click                     8.1.3                    pypi_0    pypi
+
 cx-oracle                 8.3.0                    pypi_0    pypi
+
 cycler                    0.11.0                   pypi_0    pypi
+
 cymem                     2.0.6                    pypi_0    pypi
+
 db-grader                 1.0                       dev_0    <develop>
+
 en-core-web-trf           3.4.0                    pypi_0    pypi
+  
 filelock                  3.8.0                    pypi_0    pypi
+  
 flatbuffers               1.12                     pypi_0    pypi
+  
 fonttools                 4.34.4                   pypi_0    pypi
+  
 gast                      0.4.0                    pypi_0    pypi
+  
 google-auth               2.9.1                    pypi_0    pypi
+  
 google-auth-oauthlib      0.4.6                    pypi_0    pypi
+  
 google-pasta              0.2.0                    pypi_0    pypi
+  
 grpcio                    1.42.0          py310h95c9599_0  
+  
 h5py                      3.6.0           py310h181c318_0  
+  
 hdf5                      1.12.1               h160e8cb_2  
+  
 huggingface-hub           0.8.1                    pypi_0    pypi
+  
 idna                      3.3                      pypi_0    pypi
+  
 imageio                   2.19.5                   pypi_0    pypi
+  
 install                   1.3.5                    pypi_0    pypi
+  
+
 jinja2                    3.1.2                    pypi_0    pypi
+  
 keras                     2.9.0                    pypi_0    pypi
+  
 keras-preprocessing       1.1.2                    pypi_0    pypi
 kiwisolver                1.4.4                    pypi_0    pypi
 krb5                      1.19.2               h3b8d789_0  
