@@ -2,7 +2,7 @@
 This repo holds the code for the MIRACLE accessibility testing tool.
 
 # Description
-MIRACLE is a software testing tool aimed at detecting motor impaired user accessibility guidelines. Provided is the information on how to use MIRACLE.
+MIRACLE is a software testing tool aimed at detecting motor impaired user accessibility guidelines within Android applications using Screenshots and XML data from Android testing tools. Provided is the information on how to use MIRACLE.
 
 # Running
 
