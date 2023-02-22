@@ -114,7 +114,7 @@ def detectClosure(imgPath, xmlPath):
 
 
 		# image detection if no text is found that indicates closure
-		useImage = True
+		useImage = False
 		if textClose == 0 and useImage == True:
 			#print(saveFile)
 			result = objectDetect(saveFile)
