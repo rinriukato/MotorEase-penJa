@@ -6,7 +6,7 @@ MIRACLE is a software testing tool aimed at detecting motor impaired user access
 
 # Running
 
-- go to line 76 in the MIRACLE.py file and change the filepath to the folder that holds the code and data folders
+- go to line 75 in the MIRACLE.py file and change the filepath to the folder that holds the code and data folders
 - remove existing data in the data folder and add in PNG scree sbkts and its XML files from a single application.  
 - navigate to the directory with MIRACLE.py and run python3 MIRACLE.py or python MIRACLE.py in the terminal. 
 - the output will be a file with the Motor impairment accessibility guideline violations, AccessibilityReport.txt
