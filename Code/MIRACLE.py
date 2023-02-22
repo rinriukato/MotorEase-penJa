@@ -66,7 +66,7 @@ def RunDetectors(data_folder):
 	print("\n>> Generating Accessibility Report")
 
 	txt.write(persistentText + '\n')
-	print("\nAccessibility Report Generated: AccessibilityReport.txt")
+	print("\n>>Accessibility Report Generated: AccessibilityReport.txt\n")
 
 	txt.close()
 
