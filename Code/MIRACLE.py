@@ -1,7 +1,6 @@
 import os
 #from application.app.folder.file import func_name
 from detectors.Visual.TouchTarget import checkTouchTarget
-from detectors.Visual.LabeledElements import checkLabeled
 from detectors.Motor.Closure import *
 from detectors.Motor.Closure import detectClosure
 from detectors.Motor.patternMatching.pattern_matching import *
