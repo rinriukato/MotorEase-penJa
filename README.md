@@ -4,6 +4,30 @@ This repo holds the code for the MIRACLE accessibility testing tool.
 # Description
 MIRACLE is a software testing tool aimed at detecting motor impaired user accessibility guidelines within Android applications using Screenshots and XML data from Android testing tools. Provided is the information on how to use MIRACLE.
 
+# Guideline Appendix
+
+| Accessibility Guidelines             |                                       |
+|--------------------------------------|---------------------------------------|
+| Visual Touch Target Size             |                                       |
+| Persistent Elements                  |                                       |
+| Clickable Span                       |                                       |
+| Duplicate Bounds                     |                                       |
+| Editable Item Descriptions           |                                       |
+| Expanding Section Closure            |                                       |
+| Non-Native Elements                  |                                       |
+| Visual Icon Distance                 |                                       |
+| Labeled Elements                     |                                       |
+| Captioning                           |                                       |
+| Keyboard Navigation                  |                                       |
+| Traversal Order                      |                                       |
+| Duplicate Clickable Bounds           |                                       |
+| Motion Activation                    |                                       |
+| Wide gaps between related information|                                       |
+| Facial Recognition                   |                                       |
+| Single Tap Navigation                |                                       |
+| Poor form design/instructions        |                                       |
+
+
 # Running
 
 - go to line 75 in the MIRACLE.py file and change the filepath to the folder that holds the code and data folders
