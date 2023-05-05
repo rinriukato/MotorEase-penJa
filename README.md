@@ -8,25 +8,24 @@ MIRACLE is a software testing tool aimed at detecting motor impaired user access
 
 | Accessibility Guidelines             |                                       |
 |--------------------------------------|---------------------------------------|
-| Visual Touch Target Size             |    This guideline corresponds to the visual bounds of an icon without its padding. We ensure that the visual icon has a size of at least 48x48px                                   |
-| Touch Target Size.                   |                                       |
-| Persistent Elements                  |                                       |
-| Clickable Span                       |                                       |
-| Duplicate Bounds                     |                                       |
-| Editable Item Descriptions           |                                       |
-| Expanding Section Closure            |                                       |
-| Non-Native Elements                  |                                       |
-| Visual Icon Distance                 |                                       |
-| Labeled Elements                     |                                       |
-| Captioning                           |                                       |
-| Keyboard Navigation                  |                                       |
-| Traversal Order                      |                                       |
-| Duplicate Clickable Bounds           |                                       |
-| Motion Activation                    |                                       |
-| Wide gaps between related information|                                       |
-| Facial Recognition                   |                                       |
-| Single Tap Navigation                |                                       |
-| Poor form design/instructions        |                                       |
+| Visual Touch Target Size             |    This guideline corresponds to the visual bounds of an icon without its padding. We ensure that the visual icon has a size of at least 48x48px.                                   |
+| Touch Target Size.                   |  This guideline looks at the bounding box of an element on the screen and requres the bounding box irrespective of the icon size, to be a minimum of 48x48px.                                     |
+| Persistent Elements                  |  This guideline requires elements that appear across multiple screens to remain in a similar general locations across screens. This makes it easier for users to anticipate where an icon may be.                                     |
+| Clickable Span                       |    This guideline requires elements that can be interacted with are large enough. this includes text with hyperlinks as well.                                    |
+| Duplicate Bounds                     |   This guideline looks at bounding boxes for elements on the screen and suggests that developers not have any elements that may share identical bounding boxes, or have an element with two bounding boxes of the same size.                                     |
+| Editable Item Descriptions           |  Editable items like text fields and date windows need descriptions to let users know that they can be interacted with and can be edited.                                      |
+| Expanding Section Closure            | This guideline requires sections such as pop-ups and lists to be closable using a visual icon that implies closure. This eliminates the need to close a section using a gesture.                                       |
+| Non-Native Elements                  |    This guideline requires developers to use native tools in the construction of their application in order to be compatible with native assistive features.                                   |
+| Visual Icon Distance                 |  This guideline looks at the visual distance between any given icons on the screen. It requires icons to be a minimum of 8px in distance to aboid mistaps.                                      |
+| Labeled Elements                     | This guideline requires elements to have metadata descriptions of the icon and its functionality so that assistive measures such as VoiceOver can vocalize these functionalities.                                        |
+| Captioning                           |  Captioning refers to image, audio, and video captioning requirements in the metadata. It requires  media to have a label in order for assistive services to explain the content to the user.                                     |
+| Keyboard Navigation                  | This guideline suggest developers to design interfaces that can be traveresd using a keyboard without needing gestures and complex taps.                                       |
+| Traversal Order                      |  This guideline sggests that interfaces that use keyboard navigation need to have a proper and logical traversal order of elements on the screen. An example of this is using the "tab" key to traverse elements on the screen.                                      |
+| Motion Activation                    |  This guideline requires an alternate mode of interaction if motion is used to perform some action.                                      |
+| Wide gaps between related information| This guideline suggest that related info across the screen should not be scattered so that if a user needs to perform an action related to some information, the action may not be in the same general location                                     |
+| Facial Recognition                   | This guideline checks to see if facial recognition can be used for unlock functions within applications, not requiring motor impaired users to type out a password                                      |
+| Single Tap Navigation                | Single tap navigation requires a single tap traversal of an app while achieving the same functionality. For example: swiping to delete a row in a list must be accomplished through a series of taps that can aid in deleting the row.                                     |
+| Poor form design/instructions        | This guideline suggests developers to design forms that have proper traversals and editable descriptions. It also suggests proper distances between form fields.                                       |
 
 
 # Running
