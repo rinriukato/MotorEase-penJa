@@ -6,7 +6,7 @@ MIRACLE is a software testing tool aimed at detecting motor impaired user access
 
 # Guideline Appendix
 
-| Accessibility Guidelines             |                                       |                                       |
+| Accessibility Guidelines             |                                       |                                       |                                        |
 |--------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
 | Visual Touch Target Size             |    This guideline corresponds to the visual bounds of an icon without its padding. We ensure that the visual icon has a size of at least 48x48px.                                   | | x |
 | Touch Target Size.                   |  This guideline looks at the bounding box of an element on the screen and requres the bounding box irrespective of the icon size, to be a minimum of 48x48px.                                     | x |  |
