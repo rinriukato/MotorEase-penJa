@@ -42,10 +42,6 @@ def subtractBounds(b1, b2):
 	return totalDiff
 	
 
-#subtractBounds([[0, 0], [1080, 62]], [[0, 0], [1080, 63]])
-
-#results = open("/Users/arunkrishnavajjala/Documents/GMU/PhD/Motor-Impairment-Project/persistentElementData/PeristentEvaluationResultsNEW.txt", 'w')
-
 def findViolations(dictionary, dataPath):
 	allViolations = []
 	noViolations = []
