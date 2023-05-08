@@ -1,5 +1,5 @@
 # MotorEase
-This repo holds the code for the MIRACLE accessibility testing tool.
+This repo holds the code for the MotorEase accessibility testing tool.
 
 # Description
 MotorEase is a software testing tool aimed at detecting motor impaired user accessibility guidelines within Android applications using Screenshots and XML data from Android testing tools. Provided is the information on how to use MotorEase.
@@ -32,7 +32,7 @@ MotorEase is a software testing tool aimed at detecting motor impaired user acce
 
 - go to line 75 in the MotorEase.py file and change the filepath to the folder that holds the code and data folders
 - remove existing data in the data folder and add in PNG screenshots and their XML files from a single application.  
-- navigate to the Code directory which houses MIRACLE.py and run python3 MotorEase.py or python MotorEase.py in the terminal. 
+- navigate to the Code directory which houses MotorEase.py and run python3 MotorEase.py or python MotorEase.py in the terminal. 
 - the output will be a file with the Motor impairment accessibility guideline violations, AccessibilityReport.txt
 
 # Apps Used
