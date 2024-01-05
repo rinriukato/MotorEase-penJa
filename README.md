@@ -1,10 +1,25 @@
 # MotorEase
 This repo holds the code for the MotorEase accessibility testing tool.
 
-# Description
+## Purpose
 MotorEase is a software testing tool aimed at detecting motor impaired user accessibility guidelines within Android applications using Screenshots and XML data from Android testing tools. Provided is the information on how to use MotorEase.
 
-# Guideline Appendix
+## Provenance
+
+The MotorEase code and data is available on Github at: (https://github.com/SageSELab/MotorEase)[https://github.com/SageSELab/MotorEase]
+
+The MotorEase code and data has been permanently archived on Zenodo at: (https://doi.org/10.5281/zenodo.10460701)[https://doi.org/10.5281/zenodo.10460701]
+
+## Setup & Usage
+
+- Go to line 75 in the MotorEase.py file and change the file path to the folder that holds the code and data folders
+- There are 2 ways to build the project, using Docker or a Python Environment
+- Using Docker: find the Code directory, and inside will be a Dockerfile. Simply install docker on your machine and run ```docker build -t motorease . ``` while inside the Code directory. Once the build is complete, run  ```docker run --name MotorEase motorease ``` to run the code. Ensure that there are PNG and XML files in the Data folder. If the build is not working, you may be using an outdated version of Docker and may need to update it. Otherwise, you may use the Python environment to build and run the project as well. 
+- Using Environment: The Code directory will have a requirements.txt file that lists all required packages for MotorEase to run. In your command line, create a new python environment: ``` python3 -m venv .venv``` Once your environment is created, activate it with this command: ```source .venv/bin/activate```. Use this command to download all of the dependencies into your virtual environment:  ```!pip install -r requirements.txt --use-deprecated=legacy-resolver```. Once the requirements are installed and there are PNG and XML files in the Data folder, run MotorEase using this command: ```python3 MotorEase.py```
+- The output of either method will be a file with the Motor impairment accessibility guideline violations, AccessibilityReport.txt
+- If you would like to run MotorEase on your own screenshot/xml pair, remove existing data in the data folder and add PNG screenshots and their XML files from a single application. 
+
+## Guideline Appendix
 
 | Accessibility Guidelines             |     Guideline Description                                  | Guideline Source | Previous Implementation                                    |    Implmeted by MotorEase                                    |
 |--------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|
@@ -27,17 +42,7 @@ MotorEase is a software testing tool aimed at detecting motor impaired user acce
 | Single Tap Navigation                | Single tap navigation requires a single tap traversal of an app while achieving the same functionality. For example: swiping to delete a row in a list must be accomplished through a series of taps that can aid in deleting the row.                                     | [2, 8, 9, 11, 35, 53]| | |
 | Poor form design/instructions        | This guideline suggests developers to design forms that have proper traversals and editable descriptions. It also suggests proper distances between form fields.                                       |[1, 5]| | |
 
-
-# Building and Running
-
-- Go to line 75 in the MotorEase.py file and change the file path to the folder that holds the code and data folders
-- Remove existing data in the data folder and add PNG screenshots and their XML files from a single application.
-- There are 2 ways to build the project, using Docker or a Python Environment
-- Using Docker: find the Code directory, and inside will be a Dockerfile. Simply install docker on your machine and run ```docker build -t motorease . ``` while inside the Code directory. Once the build is complete, run  ```docker run --name MotorEase motorease ``` to run the code. Ensure that there are PNG and XML files in the Data folder. If the build is not working, you may be using an outdated version of Docker and may need to update it. Otherwise, you may use the Python environment to build and run the project as well. 
-- Using Environment: The Code directory will have a requirements.txt file that lists all required packages for MotorEase to run. In your command line, create a new python environment: ``` python3 -m venv .venv``` Once your environment is created, activate it with this command: ```source .venv/bin/activate```. Use this command to download all of the dependencies into your virtual environment:  ```!pip install -r requirements.txt --use-deprecated=legacy-resolver```. Once the requirements are installed and there are PNG and XML files in the Data folder, run MotorEase using this command: ```python3 MotorEase.py```
-- The output will be a file with the Motor impairment accessibility guideline violations, AccessibilityReport.txt
-
-# Apps Used
+## Apps Used
 | Name | Package | GooglePlayLink | Downloads | Stars |
 |------|---------|----------------|----------|-------|
 | Zeus  | app.zeusln.zeus | https://play.google.com/store/apps/details?id=app.zeusln.zeus | 1000 | 4 |
@@ -84,7 +89,7 @@ MotorEase is a software testing tool aimed at detecting motor impaired user acce
 | RethinkDNS  | com.celzero.bravedns | https://play.google.com/store/apps/details?id=com.celzero.bravedns | 10000 |  |
 
 
-# Versions/Dependencies 
+### Versions/Dependencies 
 Name                    Version                   Build  Channel
 
 absl-py                   1.2.0                    pypi_0    pypi
