@@ -91,6 +91,9 @@ The MotorEase code and data has been permanently archived on Zenodo at: (https:/
 
 
 ### Versions/Dependencies 
+
+Check Requirements.txt for most up-to-date versions
+
 Name                    Version                   Build  Channel
 
 absl-py                   1.2.0                    pypi_0    pypi
