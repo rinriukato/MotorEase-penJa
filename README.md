@@ -12,7 +12,8 @@ The MotorEase code and data has been permanently archived on Zenodo at: (https:/
 
 ## Setup & Usage
 
-- Go to line 92 in the MotorEase.py file and change the file path to the folder that holds the code and data folders
+- Go to line 106 in the MotorEase.py file and change the file path to the folder that holds the code and data folders
+- Go to line 46 and add the file path for your Glove EMbeddings txt file. MotorEase requires glove embeddings to work, and needs the download for the model. The model is large and not able to be hosted on GitHub. Please visit https://nlp.stanford.edu/projects/glove/ and download 1 of the 4 available options. 
 - There are 2 ways to build the project, using Docker or a Python Environment
 - Using Docker: find the Code directory, and inside will be a Dockerfile. Simply install docker on your machine and run ```docker build -t motorease . ``` while inside the Code directory. Once the build is complete, run  ```docker run --name MotorEase motorease ``` to run the code. Ensure that there are PNG and XML files in the Data folder. If the build is not working, you may be using an outdated version of Docker and may need to update it. Otherwise, you may use the Python environment to build and run the project as well. 
 - Using Environment: The Code directory will have a requirements.txt file that lists all required packages for MotorEase to run. In your command line, create a new python environment: ``` python3 -m venv .venv``` Once your environment is created, activate it with this command: ```source .venv/bin/activate```. Use this command to download all of the dependencies into your virtual environment:  ```!pip install -r requirements.txt --use-deprecated=legacy-resolver```. Once the requirements are installed and there are PNG and XML files in the Data folder, run MotorEase using this command: ```python3 MotorEase.py```
