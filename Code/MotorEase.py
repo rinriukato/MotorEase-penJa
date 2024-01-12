@@ -3,7 +3,7 @@ import os
 #from application.app.folder.file import func_name
 from detectors.Visual.TouchTarget import checkTouchTarget
 from detectors.Visual.IconDistance import getDistance
-from detectors.Visual.LabeledElements import checkLabeled
+#from detectors.Visual.LabeledElements import checkLabeled
 from detectors.Motor.Closure import *
 from detectors.Motor.Closure import detectClosure
 from detectors.Motor.patternMatching.pattern_matching import *
@@ -33,12 +33,26 @@ def RunDetectors(data_folder):
 			files.append(os.path.join(root, file_name[:-4]))
 	print(">> Initializing Detectors\n")
 
-	print(">> Initializing Embedding Model\n")
+	print(">> Initializing Embedding Model (may take some time)\n")
 	# Load pre-trained GloVe embeddings
-	glove_model_array = ""
-	with open('./code/glove_model.pkl', 'rb') as f:
-		glove_model_array = pickle.load(f)
+	# glove_model_array = ""
+	# with open('./code/glove_model.pkl', 'rb') as f:
+	# 	try:
+	# 		glove_model_array = pickle.load(f)
+	# 	except EOFError as e: 
+	# 		print(f"EOFError: {e}")
+
+
+	model = {}
+	with open("...", 'r', encoding='utf-8') as file:
+		for line in file:
+			parts = line.split()
+			word = parts[0]
+			vector = [float(x) for x in parts[1:]]  # Convert string components to floats
+			model[word] = vector
 	
+	glove_model_array = model
+
 	counter = 0
 	for i in range(0, len(files), 2):
 		if "DS_S" not in files[i]:
