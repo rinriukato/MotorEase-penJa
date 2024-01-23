@@ -44,7 +44,7 @@ def RunDetectors(data_folder):
 
 
 	model = {}
-	with open("...", 'r', encoding='utf-8') as file:
+	with open("....txt", 'r', encoding='utf-8') as file:
 		for line in file:
 			parts = line.split()
 			word = parts[0]
@@ -55,6 +55,7 @@ def RunDetectors(data_folder):
 
 	counter = 0
 	for i in range(0, len(files), 2):
+
 		if "DS_S" not in files[i]:
 			image = files[i] + ".png"
 			xml = files[i] + ".xml"  
@@ -103,11 +104,11 @@ def RunDetectors(data_folder):
 	txt.close()
 
 # set the path to the directory of the Miracle Project
-MIRACLE_PATH = "..."
-os.chdir(MIRACLE_PATH)
+MotorEase_PATH = ".../"
+os.chdir(MotorEase_PATH)
 
 
-AppPath = MIRACLE_PATH + 'data'
+AppPath = MotorEase_PATH + 'data'
 RunDetectors(AppPath) 
 
 
