@@ -7,7 +7,7 @@ import os
 import pytesseract
 import importlib
 from detectors.Motor.patternMatching.pattern_matching.matching import match_patterns
-from detectors.Motor.objectDetect import objectDetect
+#from detectors.Motor.objectDetect import objectDetect
 from transformers import AutoTokenizer, AutoModel
 import torch
 from sklearn.metrics.pairwise import cosine_similarity
@@ -163,21 +163,21 @@ def detectClosure(imgPath, xmlPath, glove_vectors):
 					resultText = closureEmbedding(j.lower(), glove_vectors)
 					if resultText == "matched":
 						textClose += 1
-						os.remove(saveFile)
+						#os.remove(saveFile)
 						return([imgPath, "closable", "text"])
 
 
-		# image detection if no text is found that indicates closure
-		useImage = True
-		if textClose == 0 and useImage == True:
-			#print(saveFile)
-			result = objectDetect(saveFile)
+		# # image detection if no text is found that indicates closure
+		# useImage = True
+		# if textClose == 0 and useImage == True:
+		# 	#print(saveFile)
+		# 	result = objectDetect(saveFile)
 			
-			if result != None: 
-				return([imgPath, "closable", result])
+		# 	if result != None: 
+		# 		return([imgPath, "closable", result])
 				
-			else:
-				return([imgPath, "NotClosable"])
+		# 	else:
+		# 		return([imgPath, "NotClosable"])
 	#im.close()
 	return("NoExpandingDetected")
 
