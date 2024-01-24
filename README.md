@@ -39,9 +39,9 @@ The MotorEase code and data has been permanently archived on Zenodo at: (https:/
 
 - In order to run the image on the container, run this command ``` docker run -it --rm -v $(pwd)/container_files:/container_files itsarunkv/motorease-arm /bin/bash ```
 
-- This command will allow you to enter the container and use it as a terminal. This will allow you to make wget commands and modify any existing data within. 
+- This command will allow you to enter the container and use it as a terminal. This will allow you to make ```wget``` commands and modify any existing data within. 
 
-- In order to run the project, navigate to the Code directory and run ``` python3 MotorEase.py ```. The python script will run and will take the data from the Data folder and the GloVe embeddings from the sampleGlove.txt file. The program will run and notify the user at every stage. Finally, the logs will show that an accessibility report has been generated, and can be viewed. They can be viewed in the predictions2.txt file. 
+- In order to run the project, navigate to the ```Code``` directory and run ``` python3 MotorEase.py ```. The python script will run and will take the data from the Data folder and the GloVe embeddings from the sampleGlove.txt file. The program will run and notify the user at every stage. Finally, the logs will show that an accessibility report has been generated, and can be viewed. They can be viewed in the predictions2.txt file. 
 
 
 <ins>Adding your own information:</ins>
