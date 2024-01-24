@@ -14,6 +14,16 @@ The MotorEase code and data has been permanently archived on Zenodo at: (https:/
 
 - There are 2 ways to build the project, using Docker (recommended) or a Python Environment
 
+<ins>Docker instructions: </ins>
+
+- There are 2 docker builds for this project. The ARM build for Apple Silicon and the AMD build for any other devices. You can find the images hosted on DockerHub here: 
+
+- ARM: https://hub.docker.com/layers/itsarunkv/motorease-arm/latest/images/sha256:df01b242b[…]ae1f7718e4080457?uuid=66b18432-3e64-43dc-96aa-180c4e8c2dfd%0A
+
+- AMD: https://hub.docker.com/layers/itsarunkv/motorease-amd/latest/images/sha256:9e501e139[…]0358df67a442a9dc?uuid=66b18432-3e64-43dc-96aa-180c4e8c2dfd%0A
+
+- Pull your necessary image using this command: ```docker pull itsarunkv/motorease-arm``` or ```docker pull itsarunkv/motorease-amd```
+
 <ins>Docker Image Information: </ins>
 
 - The current docker image is built with sample Screenshot and XML data. This data is a representation of the data used in the study and provides a sample run option for the user. 
@@ -54,16 +64,6 @@ The MotorEase code and data has been permanently archived on Zenodo at: (https:/
   
 - If you would like to run MotorEase on your own screenshot/xml pair, remove existing data in the data folder and add PNG screenshots and their XML files from a single
   application.
-
-<ins>Docker instructions: </ins>
-
-- There are 2 docker builds for this project. The ARM build for Apple Silicon and the AMD build for any other devices. You can find the images hosted on DockerHub here: 
-
-- ARM: https://hub.docker.com/layers/itsarunkv/motorease-arm/latest/images/sha256:df01b242b[…]ae1f7718e4080457?uuid=66b18432-3e64-43dc-96aa-180c4e8c2dfd%0A
-
-- AMD: https://hub.docker.com/layers/itsarunkv/motorease-amd/latest/images/sha256:9e501e139[…]0358df67a442a9dc?uuid=66b18432-3e64-43dc-96aa-180c4e8c2dfd%0A
-
-- Pull your necessary image using this command: ```docker pull itsarunkv/motorease-arm``` or ```docker pull itsarunkv/motorease-amd```
 
 
 
