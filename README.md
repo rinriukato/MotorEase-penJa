@@ -20,8 +20,8 @@ The MotorEase code and data has been permanently archived on Zenodo at: (https:/
   
 - Go to line 47 and add the file path for your Glove Embeddings txt file. MotorEase requires glove embeddings to work, and needs the download for the model. The model is large and not able to be hosted on GitHub. Please visit https://nlp.stanford.edu/projects/glove/ and download 1 of the 4 available options.
 - ```Python Version: 3.9.13```
-  
--``` Pip Version: 23.3.2```
+
+- ``` Pip Version: 23.3.2```
 
 - Using Environment: The Code directory will have a requirements.txt file that lists all required packages for MotorEase to run. In your command line, create a new python environment: ``` python3 -m venv .venv``` Once your environment is created, activate it with this command: ```source .venv/bin/activate```. Use this command to download all of the dependencies into your virtual environment:  ```pip install -r requirements.txt```. Once the requirements are installed and there are PNG and XML files in the Data folder, run MotorEase using this command: ```python3 MotorEase.py```
   
