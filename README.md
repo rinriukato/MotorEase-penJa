@@ -12,11 +12,12 @@ The MotorEase code and data has been permanently archived on Zenodo at: (https:/
 
 ## Setup & Usage
 
-- Go to line 106 in the MotorEase.py file and change the file path to the folder that holds the code and data folders
-- Go to line 46 and add the file path for your Glove EMbeddings txt file. MotorEase requires glove embeddings to work, and needs the download for the model. The model is large and not able to be hosted on GitHub. Please visit https://nlp.stanford.edu/projects/glove/ and download 1 of the 4 available options. 
-- There are 2 ways to build the project, using Docker or a Python Environment
+- There are 2 ways to build the project, using Docker (recommended) or a Python Environment
+- <ins>Python Environment: </ins>
+- Go to line 107 in the MotorEase.py file and change the file path to the folder that holds the code and data folders
+- Go to line 47 and add the file path for your Glove Embeddings txt file. MotorEase requires glove embeddings to work, and needs the download for the model. The model is large and not able to be hosted on GitHub. Please visit https://nlp.stanford.edu/projects/glove/ and download 1 of the 4 available options. 
 - Using Environment: The Code directory will have a requirements.txt file that lists all required packages for MotorEase to run. In your command line, create a new python environment: ``` python3 -m venv .venv``` Once your environment is created, activate it with this command: ```source .venv/bin/activate```. Use this command to download all of the dependencies into your virtual environment:  ```!pip install -r requirements.txt --use-deprecated=legacy-resolver```. Once the requirements are installed and there are PNG and XML files in the Data folder, run MotorEase using this command: ```python3 MotorEase.py```
-- The output of either method will be a file with the Motor impairment accessibility guideline violations, AccessibilityReport.txt
+- The output of either method will be a file with the Motor impairment accessibility guideline violations, Predictions2.txt
 - If you would like to run MotorEase on your own screenshot/xml pair, remove existing data in the data folder and add PNG screenshots and their XML files from a single application.
 
 <ins>Docker instructions: </ins>
