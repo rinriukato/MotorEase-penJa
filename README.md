@@ -35,7 +35,7 @@ The MotorEase code and data has been permanently archived on Zenodo at: (https:/
 
 - This project uses a GloVe embedding for textual similarities. However, GloVe embedding files are large and difficult to host on GitHub. Therefore, we have created a sampleGlove.txt file within the docker container to act as a dummy GloVe  model in place of a real one. This text file is formatted the exact same way as a Glove model is normally formatted.
 
-Adding your own information:
+<ins>Adding your own information:</ins>
 
 - With the inclusion of placeholder data throughout the project, we make it easy to run and check for execution. However, this tool is designed for developers to check Motor accessibility issues within their project. This requires both an authentic GloVe embedding file and screenshots (PNG files) and UI-Automator files (XML) to be in the container. This can be done using the wget command. 
 
