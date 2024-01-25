@@ -28,18 +28,21 @@ The MotorEase code and data has been permanently archived on Zenodo at: (https:/
 
 - The current docker image is built with sample Screenshot and XML data. This data is a representation of the data used in the study and provides a sample run option for the user. 
 
-- This project uses a GloVe embedding for textual similarities. However, GloVe embedding files are large and difficult to host on GitHub. Therefore, we have created a sampleGlove.txt file within the docker container to act as a dummy GloVe  model in place of a real one. This text file is formatted the exact same way as a Glove model is normally formatted.
+- This project uses a GloVe embedding for textual similarities. However, GloVe embedding files are large and difficult to host on GitHub. Therefore, we have created a sampleGlove.txt file within the docker container to act as a dummy GloVe model in place of a real one. This text file is formatted the exact same way as a Glove model is normally formatted.
 
 <ins>Running the Image: </ins>
 
-- In order to run the image on the container, run this command ``` docker run -it --rm -v $(pwd)/container_files:/container_files itsarunkv/motorease-arm /bin/bash ```
+- In order to run the image on the container, run this command ``` docker run -it --rm -v $(pwd)/container_files:/container_files itsarunkv/motorease-arm /bin/bash ``` (be sure to use the correct "and" or "arm" image name in this command).
 
-- This command will allow you to enter the container and use it as a terminal. This will allow you to make ```wget``` commands and modify any existing data within. 
+- This command will allow you to enter the container and use it as a terminal. This will allow you to run ```wget``` commands to download data to the container and modify any existing data within. 
 
 - In order to run the project, navigate to the ```Code``` directory and run ``` python3 MotorEase.py ```. The python script will run and will take the data from the Data folder and the GloVe embeddings from the sampleGlove.txt file. The program will run and notify the user at every stage. Finally, the logs will show that an accessibility report has been generated, and can be viewed. They can be viewed in the predictions2.txt file. 
 
+<ins>Reproducing Full Paper Results:</ins>
 
-<ins>Adding your own information:</ins>
+- Coming Soon, we are uploading the (large) dataset for the full reproduction. 
+
+<ins>Adding Real GloVe Embeddings and Your Own Screen Information:</ins>
 
 - With the inclusion of placeholder data throughout the project, we make it easy to run and check for execution. However, this tool is designed for developers to check Motor accessibility issues within their project. This requires both an authentic GloVe embedding file and screenshots (PNG files) and UI-Automator files (XML) to be in the container. This can be done using the wget command. 
 
