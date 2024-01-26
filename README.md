@@ -36,7 +36,7 @@ The MotorEase code and data has been permanently archived on Zenodo at: (https:/
 
 - This command will allow you to enter the container and use it as a terminal. This will allow you to run ```wget``` commands to download data to the container and modify any existing data within. 
 
-- In order to run the project, navigate to the ```Code``` directory and run ``` python3 MotorEase.py ```. The python script will run and will take the data from the Data folder and the GloVe embeddings from the sampleGlove.txt file. The program will run and notify the user at every stage. Finally, the logs will show that an accessibility report has been generated, and can be viewed. They can be viewed in the predictions2.txt file. 
+- In order to run the project, navigate to the ```Code``` directory and run ``` python3 MotorEase.py ```. The python script will run and will take the data from the Data folder and the GloVe embeddings from the sampleGlove.txt file. The program will run and notify the user at every stage. Finally, the logs will show that an accessibility report has been generated, and can be viewed. They can be viewed in the AccessibilityReport.txt file. 
 
 <ins>Reproducing Full Paper Results:</ins>
 
@@ -63,7 +63,7 @@ The MotorEase code and data has been permanently archived on Zenodo at: (https:/
 
 - Using Environment: The Code directory will have a requirements.txt file that lists all required packages for MotorEase to run. In your command line, create a new python environment: ``` python3 -m venv .venv``` Once your environment is created, activate it with this command: ```source .venv/bin/activate```. Use this command to download all of the dependencies into your virtual environment:  ```pip install -r requirements.txt```. Once the requirements are installed and there are PNG and XML files in the Data folder, run MotorEase using this command: ```python3 MotorEase.py```
   
-- The output of either method will be a file with the Motor impairment accessibility guideline violations, Predictions2.txt
+- The output of either method will be a file with the Motor impairment accessibility guideline violations, AccessibilityReport.txt
   
 - If you would like to run MotorEase on your own screenshot/xml pair, remove existing data in the data folder and add PNG screenshots and their XML files from a single
   application.
