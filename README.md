@@ -18,9 +18,9 @@ The MotorEase code and data has been permanently archived on Zenodo at: (https:/
 
 - There are 2 docker builds for this project. The ARM build for Apple Silicon and the AMD build for any other devices. You can find the images hosted on DockerHub here: 
 
-- ARM: https://hub.docker.com/layers/itsarunkv/motorease-arm/latest/images/sha256:df01b242b[…]ae1f7718e4080457?uuid=66b18432-3e64-43dc-96aa-180c4e8c2dfd%0A
+- ARM: itsarunkv/motorease-arm
 
-- AMD: https://hub.docker.com/layers/itsarunkv/motorease-amd/latest/images/sha256:9e501e139[…]0358df67a442a9dc?uuid=66b18432-3e64-43dc-96aa-180c4e8c2dfd%0A
+- AMD: docker pull itsarunkv/motorease-amd
 
 - Pull your necessary image using this command: ```docker pull itsarunkv/motorease-arm``` or ```docker pull itsarunkv/motorease-amd```
 
@@ -48,7 +48,7 @@ The MotorEase code and data has been permanently archived on Zenodo at: (https:/
 
 - GloVe embeddings used: ```wget https://nlp.stanford.edu/data/glove.42B.300d.zip```
 
-- When you download your GloVe embedding file, rename it to sampleGlove.txt and delete the placeholder sampleGlove.txt file so that the code can use the real embeddings. 
+- Please sneure that the Glove embedding is downloaded to the /MotorEase-main/Code/ folder. When you download your GloVe embedding file, rename it to sampleGlove.txt and delete the placeholder sampleGlove.txt file so that the code can use the real embeddings. The resulting file path for the GloVe embedding file should be: ```/MotorEase-main/Code/gloveSample.txt```
 
 - In order to load your own images, navigate to the Data folder in the container and delete the existing photos. Use the wget command to download your images into the directory so they may be used. 
   
