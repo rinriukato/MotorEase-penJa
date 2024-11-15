@@ -108,7 +108,7 @@ MotorEase_PATH = "./"
 os.chdir(MotorEase_PATH)
 
 
-AppPath = MotorEase_PATH + 'data'
+AppPath = MotorEase_PATH + 'Data'
 RunDetectors(AppPath) 
 
 

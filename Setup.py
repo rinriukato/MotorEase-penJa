@@ -64,7 +64,7 @@ def main():
             json.dump(save, file)
 
     # Check if virtual environment has been created
-    if (not save['venvCreated']):
+    if (not save['venvCreated']) or (not os.path.exists(VENV_DIR)):
         print("Creating virtual environment...")
 
         # To prevent any issues if the program was stopped before finishing venv creation.
@@ -81,7 +81,18 @@ def main():
             json.dump(save, file)
 
     else:
-        print("Virtual environment already exists. Running script...")
+        print("Virtual environment already exists.")
+
+    # Check if ./Code/glove.42B.300d.txt exists
+    if not os.path.exists("./Code/glove.42B.300d.txt"):
+        # Download glove.42B.300d.txt
+        print("Downloading GloVe embeddings...")
+        subprocess.check_call(["wget", "http://nlp.stanford.edu/data/glove.42B.300d.zip", "-P", "./Code/"])
+        subprocess.check_call(["unzip", "./Code/glove.42B.300d.zip", "-d", "./Code/"])
+        subprocess.check_call(["rm", "./Code/glove.42B.300d.zip"])
+    else:
+        print("GloVe embeddings already exist.")
+
         
     run_script_in_venv(TARGET_SCRIPT)
 
