@@ -44,7 +44,7 @@ def RunDetectors(data_folder):
 
 
 	model = {}
-	with open("....txt", 'r', encoding='utf-8') as file:
+	with open("./Code/glove.42B.300d.txt", 'r', encoding='utf-8') as file:
 		for line in file:
 			parts = line.split()
 			word = parts[0]
@@ -104,7 +104,7 @@ def RunDetectors(data_folder):
 	txt.close()
 
 # set the path to the directory of the Miracle Project
-MotorEase_PATH = ".../"
+MotorEase_PATH = "./"
 os.chdir(MotorEase_PATH)
 
 
