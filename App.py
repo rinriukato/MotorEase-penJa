@@ -1,120 +1,172 @@
-import os
+import os, shutil, json
 import tkinter as tk
 from tkinter import ttk
 import tkinter.filedialog
-import shutil
-import json
-from Setup import check_python_version, create_virtualenv, install_dependencies, download_glove_embeddings, run_script_in_venv  # Import functions
+from app.Setup import runSetup
+from app.ModelRunner import run_MotorEase
+import app.SaveData as SaveData
 
-def run_setup():
-    # Run the setup process with progress tracking
-    progress_label["text"] = "Starting setup..."
-    
-    def update_progress(msg):
-        progress_label["text"] = msg
-        root.update_idletasks()  # Update GUI
+def find_component(component_type):
+    for component in root.winfo_children():
+        if isinstance(component, component_type):
+            return component
+    return None
+
+def find_components(component_type):
+    components = []
+    for component in root.winfo_children():
+        if isinstance(component, component_type):
+            components.append(component)
+    return components
+
+def update_label(text):
+    label = find_component(tk.Label)
+    label["text"] = text
+    root.update_idletasks()
+    return
+
+def disable_buttons():
+    buttons = find_components(tk.Button)
+    for button in buttons:
+        button["state"] = "disabled"
+    root.update_idletasks()
+
+def enable_buttons():
+    buttons = find_components(tk.Button)
+    for button in buttons:
+        button["state"] = "normal"
+    root.update_idletasks()
+
+def begin_setup():
+    disable_buttons()
+    runSetup(progress_callback=update_label)
+    display_main_app()
+
+def skip_setup():
+    save = SaveData.load_data()
+    save["setupComplete"] = True
+    SaveData.save_data(save)
+    display_main_app()
+
+def begin_model():
+    disable_buttons()
+    update_label("Running model...\nThis will take some time.")
     
     try:
-        # Check python version
-        if not check_python_version():
-            progress_label["text"] = "Python version check failed. Please use Python 3.6 or higher."
-            return
-        
-        # Run setup steps
-        create_virtualenv(progress_callback=update_progress)
-        install_dependencies(progress_callback=update_progress)
-        download_glove_embeddings(progress_callback=update_progress)
-
-        # Setup completed
-        progress_label["text"] = "Setup completed successfully!"
-
-        # Save setup completion status
-        save_data["setupComplete"] = True
-        with open("./save.json", "w") as file:
-            json.dump(save_data, file)
+        run_MotorEase()
+        update_label("Model finished successfully!\nCheck results in ./predictions2.txt")
 
     except Exception as e:
-        progress_label["text"] = f"Setup failed: {str(e)}"
+        update_label("Model failed with error:\n" + str(e))
 
-
-def run_model():
-    # Disable the buttons while the model is running
-    browse_button["state"] = "disabled"
-    run_button["state"] = "disabled"
-
-    # Run the model script
-    progress_label["text"] = "Running model...\nThis will take some time."
-    root.update_idletasks()
-    
-    try:
-        run_script_in_venv("./Code/MotorEase.py")
-        progress_label["text"] = "Model finished successfully!\nCheck results in ./predictions2.txt"
-
-    except Exception as e:
-        progress_label["text"] = f"Model failed with error: {str(e)}"
-
-    # Re-enable the buttons
-    browse_button["state"] = "normal"
-    run_button["state"] = "normal"
-    root.update_idletasks()
+    enable_buttons()
 
 # Browse image files
 def browse_file():
-    file_path = tk.filedialog.askopenfilename(filetypes=[("Image files", "*.jpg *.jpeg *.png")])
+    file_path = tkinter.filedialog.askopenfilename(filetypes=[("Image files", "*.png")], multiple=True)
+    
+    # Split the file paths if multiple files are selected
+    if isinstance(file_path, tuple):
+        file_path = list(file_path)
+    
+    # Add the file paths for each image's xml file (should have identical names)
+    missing_xml = []
+    for i in range(len(file_path)):
+        PathXML = file_path[i].replace(".png", ".xml")
+        if os.path.exists(PathXML):
+            file_path.append(PathXML)
+        else:
+            missing_xml.append(file_path.pop(i))
+    
+    if len(missing_xml)> 0:
+        update_label("Error: " + str(len(missing_xml)) + " image(s) are missing XML.\nPlease be sure each image\nhas a corresponding XML file.")
+        return
+
+    file_picker = find_component(ttk.Entry)
     file_picker.delete(0, tk.END)
     file_picker.insert(0, file_path)
-    copy_files()
+    copy_files(file_path)
 
 
 # Copy selected files to ./Data
-def copy_files():
-    file_path = file_picker.get()
-    if not file_path:
-        return
-    
-    shutil.copy(file_path, "./Data")
-    progress_label["text"] = f"File copied to ./Data: {file_path}"
+def copy_files(file_paths):
+    data_folders = ["./Data", "./Code/detectors/Visual/UIED-master/data/input/"]
 
+    for data_folder in data_folders:
+        if os.path.exists(data_folder):
+            shutil.rmtree(data_folder)
+        
+        os.makedirs(data_folder)
+        
+        for file_path in file_paths:
+            shutil.copy(file_path, data_folder)
+    
+    update_label("Files copied to ./Data")
+    root.update_idletasks()
+
+def check_filepath():
+    if not os.path.exists("./Code/MotorEase.py"):
+        display_filepath_warning()
+        return False
+    return True
+
+def display_filepath_warning():
+    progress_label = tk.Label(root, text="Could not find MotorEase.py.\nPlease ensure the file is run from\nthe root directory of the project.")
+    progress_label.pack(pady=10)
+
+def display_setup():
+    # Clear the root window
+    for widget in root.winfo_children():
+        widget.destroy()
+    
+    # Show the setup GUI
+    progress_label = tk.Label(root, text="Click the button to begin setup.\nRequires about 12GB of storage.")
+    progress_label.pack(pady=10)
+
+    setup_button = tk.Button(root, text="Begin Setup", command=begin_setup)
+    setup_button.pack(pady=10)
+
+    skip_button = tk.Button(root, text="Skip Setup", command=skip_setup)
+    skip_button.pack(pady=10)
+    enable_buttons()
+
+def display_main_app():
+    # Clear the root window
+    for widget in root.winfo_children():
+        widget.destroy()
+    
+    # Show the main app GUI
+    progress_label = tk.Label(root, text="Select image files to begin.")
+    progress_label.pack(pady=10)
+    
+    # File picker
+    file_picker = ttk.Entry(root, width=50)
+
+    browse_button = tk.Button(root, text="Browse Files", command=browse_file)
+    browse_button.pack(pady=10)
+
+    # Run model button
+    run_button = tk.Button(root, text="Run Model", command=begin_model)
+    run_button.pack(pady=10)
+
+    enable_buttons()
 
 # GUI Setup
 root = tk.Tk()
 
 # Get save data
-with open("./save.json", "r") as file:
-    save_data = json.load(file)
+save_data = SaveData.load_data()
 
+root.title("MotorEase Model")
+root.geometry("600x300")
+root.resizable(False, False)
 
-# If setup has not been completed, show the setup GUI
-if not save_data["setupComplete"]:
-
-    root.title("App Setup")
-
-    progress_label = tk.Label(root, text="Click 'Run Setup' to begin.")
-    progress_label.pack(pady=10)
-
-    run_button = tk.Button(root, text="Run Setup", command=run_setup)
-    run_button.pack(pady=10)
-
-# Setup has been completed, show the main app GUI
-else:
-
-    root.title("Main App")
-
-    # Set size of window
-    root.geometry("600x300")
-    root.resizable(False, False)
-
-    progress_label = tk.Label(root, text="Upload your application images \n and click 'Run Model' to begin.")
-    progress_label.pack(pady=10)
-
-    # Show file picker
-    file_picker = ttk.Entry(root, width=50)
-    browse_button = tk.Button(root, text="Browse", command=browse_file)
-    browse_button.pack(pady=10)
-
-    # Show button
-    run_button = tk.Button(root, text="Run Model", command=run_model)
-    run_button.pack(pady=10)    
-
+if check_filepath():
+    
+    if not save_data["setupComplete"]:
+        display_setup()
+    else:
+        print("Displaying main app")
+        display_main_app()
 
 root.mainloop()
