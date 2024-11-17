@@ -17,7 +17,7 @@ def create_virtualenv(callback=None):
 
     # Create the virtual environment
     if not os.path.exists(VENV_DIR):
-        subprocess.check_call([sys.executable, "-m", "venv", VENV_DIR])
+       subprocess.check_call([sys.executable, "-m", "venv", VENV_DIR])
 
 def install_dependencies(callback=None):
     # Update progress
@@ -57,7 +57,7 @@ def runSetup(progress_callback):
         save_data(save)
 
         # Setup completed
-        progress_callback("Setup completed successfully!\nPlease restart the app.")
+        progress_callback("Setup complete!")
 
     except Exception as e:
         progress_callback(f"Setup failed: {str(e)}")

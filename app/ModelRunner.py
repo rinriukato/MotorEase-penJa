@@ -22,4 +22,5 @@ def run_script_in_venv(script_name):
         raise
 
 def run_MotorEase():
+    # Run the MotorEase model script on a separate thread
     run_script_in_venv(MODEL_FILE)
