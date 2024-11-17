@@ -6,9 +6,9 @@ MotorEase is a software testing tool aimed at detecting motor impaired user acce
 
 ## Provenance
 
-The MotorEase code and data is available on Github at: (https://github.com/SageSELab/MotorEase)[https://github.com/SageSELab/MotorEase]
+The MotorEase code and data is available on Github at: [https://github.com/SageSELab/MotorEase](https://github.com/SageSELab/MotorEase)
 
-The MotorEase code and data has been permanently archived on Zenodo at: (https://doi.org/10.5281/zenodo.10460701)[https://doi.org/10.5281/zenodo.10460701]
+The MotorEase code and data has been permanently archived on Zenodo at: [https://doi.org/10.5281/zenodo.10460701](https://doi.org/10.5281/zenodo.10460701)
 
 ## Setup & Usage
 
