@@ -10,6 +10,7 @@ def __init__(self):
 	pass
 
 def getBounds(inText):
+
     split = inText.split('][')
     
     split[0] = split[0].strip('[')
@@ -24,6 +25,17 @@ def getBounds(inText):
 
 def checkTouchTarget(screenshot_path, xml_path, min_size=(48, 48)):
 # Load the XML file
+	"""
+
+	screenshot_path - path to screenshot in directory
+	xml_path - path to xml file in directory
+	min_size - minimum size of the picture bounds?
+
+	This function tests if interactive elements, in an app are big enough to be useable (dictated by min_size)
+	of 48x48 pixels. 
+
+	"""
+
 	if ".DS_S" not in xml_path:
 		tree = ET.parse(xml_path)
 		root = tree.getroot()
@@ -41,6 +53,8 @@ def checkTouchTarget(screenshot_path, xml_path, min_size=(48, 48)):
 					bounds = getBounds(elements[16][1])
 					first = bounds[1][0] - bounds[0][0]
 					second = bounds[1][1] - bounds[0][1]
+
+					# The element at this coordinate is too small!
 					if first <48 or second <48:
 						#print(elements)
 						#print(bounds)
