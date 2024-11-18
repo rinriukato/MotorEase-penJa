@@ -4,6 +4,7 @@ from tkinter import ttk
 import tkinter.filedialog
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
+from app.ResultsPopup import popup_report
 from app.Setup import runSetup
 from app.ModelRunner import run_MotorEase
 import app.SaveData as SaveData
@@ -53,7 +54,7 @@ def begin_model_thread():
     update_label("Running model...\nThis will take some time.")
     
     try:
-        run_MotorEase()
+        run_MotorEase(progress_callback=update_label)
         update_label("Model finished successfully!\nCheck results in ./predictions2.txt")
 
     except Exception as e:
@@ -141,34 +142,34 @@ def display_filepath_warning():
 def display_intro():
     clear_root()
     
-    # Show the setup GUI
+    # Label
     progress_label = tk.Label(root, text="Click the button to begin setup.\nRequires about 12GB of storage.")
     progress_label.pack(pady=10)
 
+    # Begin Setup Button
     setup_button = ttk.Button(root, text="Begin Setup", bootstyle=PRIMARY, command=begin_setup, width=20)
     setup_button.pack(pady=10)
 
+    # Skip Setup Button
     skip_button = ttk.Button(root, text="Skip Setup", bootstyle=SECONDARY , command=skip_setup, width=20)
     skip_button.pack(pady=10)
 
 def display_setup():
     clear_root()
     
-    # Show the setup GUI
+    # Label
     progress_label = tk.Label(root, text="Beginning Setup...", name="progress_label")
     progress_label.pack(pady=10)
 
-    # Show Settings GIF
+    # Settings GIF
     settings_gif = AnimatedGif(root)
     settings_gif.pack(fill=BOTH, expand=YES)
-
-    # Center the GIF
     settings_gif.place(relx=0.5, rely=0.7, anchor="center")
 
 def display_main_app():
     clear_root()
     
-    # Show the main app GUI
+    # Label
     progress_label = tk.Label(root, text="Select image files to begin.", name="progress_label")
     progress_label.place(relx=0.50, rely=0.15, anchor="center")
     
@@ -189,7 +190,7 @@ def display_main_app():
     browse_button = ttk.Button(root, text="Browse Files", command=browse_file, width=20)
     browse_button.place(relx=0.5, rely=0.60, anchor="center")
 
-    # Run model button
+    # Run Model button
     run_button = ttk.Button(root, text="Run Model", command=begin_model, width=20)
     run_button.place(relx=0.5, rely=0.84, anchor="center")
 
@@ -198,27 +199,30 @@ def display_main_app():
 def display_running_model():
     clear_root()
     
-    # Show the running model GUI
+    # Label
     progress_label = tk.Label(root, text="Running model...\nThis will take some time.", name="progress_label")
     progress_label.pack(pady=10)
 
-    # Show Settings GIF
+    # Settings GIF
     settings_gif = AnimatedGif(root)
     settings_gif.pack(fill=BOTH, expand=YES)
-
-    # Center the GIF
     settings_gif.place(relx=0.5, rely=0.7, anchor="center")
 
 def display_finished_model():
     clear_root()
     
-    # Show the finished model GUI
+    # Label
     progress_label = tk.Label(root, text="Model finished successfully!\nCheck results in ./predictions2.txt", name="progress_label")
     progress_label.pack(pady=10)
+
+    # Report button
+    report_button = ttk.Button(root, text="View Report", command=lambda: popup_report(root), width=20)
+    report_button.pack(pady=10)
 
     # Close button
     close_button = ttk.Button(root, text="Done", command=display_main_app, width=20)
     close_button.pack(pady=10)
+
 
 # GUI Setup
 root = ttk.Window()

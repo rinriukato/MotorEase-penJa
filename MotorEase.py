@@ -45,11 +45,16 @@ def RunDetectors(data_folder):
 
 	model = {}
 	with open("....txt", 'r', encoding='utf-8') as file:
+		num_lines = 0
 		for line in file:
 			parts = line.split()
 			word = parts[0]
 			vector = [float(x) for x in parts[1:]]  # Convert string components to floats
 			model[word] = vector
+
+			# Print progress
+			num_lines += 1
+			print(f"{num_lines} lines read")
 	
 	glove_model_array = model
 
