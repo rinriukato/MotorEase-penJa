@@ -44,7 +44,7 @@ def RunDetectors(data_folder):
 
 
 	model = {}
-	with open("./Code/glove.42B.300d.txt", 'r', encoding='utf-8') as file:
+	with open("./Code/glove.6B.300d.txt", 'r', encoding='utf-8') as file:
 		for line in file:
 			parts = line.split()
 			word = parts[0]
@@ -108,7 +108,7 @@ MotorEase_PATH = "./"
 os.chdir(MotorEase_PATH)
 
 
-AppPath = MotorEase_PATH + 'data'
+AppPath = MotorEase_PATH + 'Data'
 RunDetectors(AppPath) 
 
 

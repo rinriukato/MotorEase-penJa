@@ -1,0 +1,143 @@
+============================================
+FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
+Touch Target Detector>> Interactive Elements: 120 | Violating Elements: 115
+
+./Data/com.gianlu.dnshero_Bottom_Up_3.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
+
+com.gianlu.dnshero_Bottom_Up_3.png, 0
+============================================
+
+All Screens 
+./Data: 
+Persisting Elements Detector>> Violating Screens: []
+============================================
+FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
+Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+
+./Data/com.gianlu.dnshero_Bottom_Up_3.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
+
+com.gianlu.dnshero_Bottom_Up_3.png, 0
+============================================
+
+All Screens 
+./Data: 
+Persisting Elements Detector>> Violating Screens: []
+============================================
+FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
+Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+
+./Data/com.gianlu.dnshero_Bottom_Up_3.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
+
+com.gianlu.dnshero_Bottom_Up_3.png, 0
+============================================
+
+All Screens 
+./Data: 
+Persisting Elements Detector>> Violating Screens: []
+============================================
+FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
+Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+
+./Data/com.gianlu.dnshero_Bottom_Up_3.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
+
+com.gianlu.dnshero_Bottom_Up_3.png, 0
+============================================
+
+All Screens 
+./Data: 
+Persisting Elements Detector>> Violating Screens: []
+============================================
+FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
+Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+
+./Data/com.gianlu.dnshero_Bottom_Up_3.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
+
+com.gianlu.dnshero_Bottom_Up_3.png, 0
+============================================
+
+All Screens 
+./Data: 
+Persisting Elements Detector>> Violating Screens: []
+============================================
+FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
+Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+
+./Data/com.gianlu.dnshero_Bottom_Up_3.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
+
+com.gianlu.dnshero_Bottom_Up_3.png, 0
+============================================
+
+All Screens 
+./Data: 
+Persisting Elements Detector>> Violating Screens: []
+============================================
+FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
+Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+
+./Data/com.gianlu.dnshero_Bottom_Up_3.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
+
+com.gianlu.dnshero_Bottom_Up_3.png, 0
+============================================
+
+All Screens 
+./Data: 
+Persisting Elements Detector>> Violating Screens: []
+============================================
+FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
+Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+
+./Data/com.gianlu.dnshero_Bottom_Up_3.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
+
+com.gianlu.dnshero_Bottom_Up_3.png, 0
+============================================
+
+All Screens 
+./Data: 
+Persisting Elements Detector>> Violating Screens: []
+============================================
+FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
+Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+
+./Data/com.gianlu.dnshero_Bottom_Up_3.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
+
+com.gianlu.dnshero_Bottom_Up_3.png, 0
+============================================
+
+All Screens 
+./Data: 
+Persisting Elements Detector>> Violating Screens: []
+============================================
+FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
+Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+
+./Data/com.gianlu.dnshero_Bottom_Up_3.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
+
+com.gianlu.dnshero_Bottom_Up_3.png, 0
+============================================
+
+All Screens 
+./Data: 
+Persisting Elements Detector>> Violating Screens: []
+============================================
+FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
+Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+
+./Data/com.gianlu.dnshero_Bottom_Up_3.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
+
+com.gianlu.dnshero_Bottom_Up_3.png, 0
+============================================
+
+All Screens 
+./Data: 
+Persisting Elements Detector>> Violating Screens: []
