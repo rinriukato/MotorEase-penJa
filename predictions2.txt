@@ -1,4 +1,44 @@
 ============================================
+FILENAME: com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png
+Touch Target Detector>> Interactive Elements: 96 | Violating Elements: 86
+
+./Data/com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png', 'closable', 'text']
+
+com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png, 0
+============================================
+FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
+Touch Target Detector>> Interactive Elements: 19 | Violating Elements: 14
+
+./Data/com.gianlu.dnshero_Bottom_Up_3.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
+
+com.gianlu.dnshero_Bottom_Up_3.png, 0
+============================================
+FILENAME: com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png
+Touch Target Detector>> Interactive Elements: 96 | Violating Elements: 86
+
+./Data/com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png', 'closable', 'text']
+
+com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png, 0
+============================================
+FILENAME: com.cgogolin.library_Bottom_Up_0.png
+Touch Target Detector>> Interactive Elements: 38 | Violating Elements: 28
+
+./Data/com.cgogolin.library_Bottom_Up_0.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.cgogolin.library_Bottom_Up_0.png', 'closable', 'text']
+
+com.cgogolin.library_Bottom_Up_0.png, 0
+============================================
+FILENAME: at.tomtasche.reader_Top_Down_68.png
+Touch Target Detector>> Interactive Elements: 524 | Violating Elements: 505
+
+./Data/at.tomtasche.reader_Top_Down_68.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/at.tomtasche.reader_Top_Down_68.png', 'closable', 'text']
+
+at.tomtasche.reader_Top_Down_68.png, 0
+============================================
 FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
 Touch Target Detector>> Interactive Elements: 120 | Violating Elements: 115
 
@@ -7,135 +47,300 @@ Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bo
 
 com.gianlu.dnshero_Bottom_Up_3.png, 0
 ============================================
+FILENAME: com.gianlu.dnshero_Bottom_Up_3.png:Zone.Identi.png
+============================================
+FILENAME: com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png
+Touch Target Detector>> Interactive Elements: 96 | Violating Elements: 86
 
-All Screens 
-./Data: 
-Persisting Elements Detector>> Violating Screens: []
+./Data/com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png', 'closable', 'text']
+
+com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png, 0
 ============================================
 FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
-Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+Touch Target Detector>> Interactive Elements: 19 | Violating Elements: 14
 
 ./Data/com.gianlu.dnshero_Bottom_Up_3.png:
 Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
 
 com.gianlu.dnshero_Bottom_Up_3.png, 0
 ============================================
+FILENAME: com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png
+Touch Target Detector>> Interactive Elements: 96 | Violating Elements: 86
 
-All Screens 
-./Data: 
-Persisting Elements Detector>> Violating Screens: []
+./Data/com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png', 'closable', 'text']
+
+com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png, 0
+============================================
+FILENAME: com.cgogolin.library_Bottom_Up_0.png
+Touch Target Detector>> Interactive Elements: 38 | Violating Elements: 28
+
+./Data/com.cgogolin.library_Bottom_Up_0.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.cgogolin.library_Bottom_Up_0.png', 'closable', 'text']
+
+com.cgogolin.library_Bottom_Up_0.png, 0
+============================================
+FILENAME: at.tomtasche.reader_Top_Down_68.png
+Touch Target Detector>> Interactive Elements: 524 | Violating Elements: 505
+
+./Data/at.tomtasche.reader_Top_Down_68.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/at.tomtasche.reader_Top_Down_68.png', 'closable', 'text']
+
+at.tomtasche.reader_Top_Down_68.png, 0
 ============================================
 FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
-Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+Touch Target Detector>> Interactive Elements: 120 | Violating Elements: 115
 
 ./Data/com.gianlu.dnshero_Bottom_Up_3.png:
 Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
 
 com.gianlu.dnshero_Bottom_Up_3.png, 0
 ============================================
+FILENAME: com.gianlu.dnshero_Bottom_Up_3.png:Zone.Identi.png
+============================================
+FILENAME: com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png
+Touch Target Detector>> Interactive Elements: 96 | Violating Elements: 86
 
-All Screens 
-./Data: 
-Persisting Elements Detector>> Violating Screens: []
+./Data/com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png', 'closable', 'text']
+
+com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png, 0
 ============================================
 FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
-Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+Touch Target Detector>> Interactive Elements: 19 | Violating Elements: 14
 
 ./Data/com.gianlu.dnshero_Bottom_Up_3.png:
 Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
 
 com.gianlu.dnshero_Bottom_Up_3.png, 0
 ============================================
+FILENAME: ac.robinson.mediaphone_Bottom_Up_4.png
+Touch Target Detector>> Interactive Elements: 0 | Violating Elements: 0
 
-All Screens 
-./Data: 
-Persisting Elements Detector>> Violating Screens: []
+./Data/ac.robinson.mediaphone_Bottom_Up_4.png:
+Expanding Sections Detector>> Expanding elements: NoExpandingDetected
+
+ac.robinson.mediaphone_Bottom_Up_4.png, 0
 ============================================
-FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
-Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+FILENAME: com.cgogolin.library_Bottom_Up_0.png
+Touch Target Detector>> Interactive Elements: 30 | Violating Elements: 20
 
-./Data/com.gianlu.dnshero_Bottom_Up_3.png:
-Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
+./Data/com.cgogolin.library_Bottom_Up_0.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.cgogolin.library_Bottom_Up_0.png', 'closable', 'text']
 
-com.gianlu.dnshero_Bottom_Up_3.png, 0
+com.cgogolin.library_Bottom_Up_0.png, 0
 ============================================
+FILENAME: ca.mimic.apphangar_Bottom_Up_0.png
+Touch Target Detector>> Interactive Elements: 36 | Violating Elements: 34
 
-All Screens 
-./Data: 
-Persisting Elements Detector>> Violating Screens: []
+./Data/ca.mimic.apphangar_Bottom_Up_0.png:
+Expanding Sections Detector>> Expanding elements: NoExpandingDetected
+
+ca.mimic.apphangar_Bottom_Up_0.png, 0
 ============================================
-FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
-Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+FILENAME: com.developerfromjokela.motioneyeclient_Bottom_Up_8.png
+Touch Target Detector>> Interactive Elements: 30 | Violating Elements: 27
 
-./Data/com.gianlu.dnshero_Bottom_Up_3.png:
-Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
+./Data/com.developerfromjokela.motioneyeclient_Bottom_Up_8.png:
+Expanding Sections Detector>> Expanding elements: NoExpandingDetected
 
-com.gianlu.dnshero_Bottom_Up_3.png, 0
+com.developerfromjokela.motioneyeclient_Bottom_Up_8.png, 0
 ============================================
+FILENAME: at.tomtasche.reader_Top_Down_68.png
+Touch Target Detector>> Interactive Elements: 514 | Violating Elements: 496
 
-All Screens 
-./Data: 
-Persisting Elements Detector>> Violating Screens: []
-============================================
-FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
-Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+./Data/at.tomtasche.reader_Top_Down_68.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/at.tomtasche.reader_Top_Down_68.png', 'closable', 'text']
 
-./Data/com.gianlu.dnshero_Bottom_Up_3.png:
-Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
-
-com.gianlu.dnshero_Bottom_Up_3.png, 0
-============================================
-
-All Screens 
-./Data: 
-Persisting Elements Detector>> Violating Screens: []
-============================================
-FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
-Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
-
-./Data/com.gianlu.dnshero_Bottom_Up_3.png:
-Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
-
-com.gianlu.dnshero_Bottom_Up_3.png, 0
+at.tomtasche.reader_Top_Down_68.png, 0
 ============================================
 
 All Screens 
 ./Data: 
 Persisting Elements Detector>> Violating Screens: []
 ============================================
+FILENAME: com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png
+Touch Target Detector>> Interactive Elements: 205 | Violating Elements: 195
+
+./Data/com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png', 'closable', 'text']
+
+com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png, 0
+============================================
 FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
-Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+Touch Target Detector>> Interactive Elements: 19 | Violating Elements: 14
 
 ./Data/com.gianlu.dnshero_Bottom_Up_3.png:
 Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
 
 com.gianlu.dnshero_Bottom_Up_3.png, 0
+============================================
+FILENAME: ac.robinson.mediaphone_Bottom_Up_4.png
+Touch Target Detector>> Interactive Elements: 0 | Violating Elements: 0
+
+./Data/ac.robinson.mediaphone_Bottom_Up_4.png:
+Expanding Sections Detector>> Expanding elements: NoExpandingDetected
+
+ac.robinson.mediaphone_Bottom_Up_4.png, 0
+============================================
+FILENAME: com.cgogolin.library_Bottom_Up_0.png
+Touch Target Detector>> Interactive Elements: 30 | Violating Elements: 20
+
+./Data/com.cgogolin.library_Bottom_Up_0.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.cgogolin.library_Bottom_Up_0.png', 'closable', 'text']
+
+com.cgogolin.library_Bottom_Up_0.png, 0
+============================================
+FILENAME: ca.mimic.apphangar_Bottom_Up_0.png
+Touch Target Detector>> Interactive Elements: 36 | Violating Elements: 34
+
+./Data/ca.mimic.apphangar_Bottom_Up_0.png:
+Expanding Sections Detector>> Expanding elements: NoExpandingDetected
+
+ca.mimic.apphangar_Bottom_Up_0.png, 0
+============================================
+FILENAME: com.developerfromjokela.motioneyeclient_Bottom_Up_8.png
+Touch Target Detector>> Interactive Elements: 30 | Violating Elements: 27
+
+./Data/com.developerfromjokela.motioneyeclient_Bottom_Up_8.png:
+Expanding Sections Detector>> Expanding elements: NoExpandingDetected
+
+com.developerfromjokela.motioneyeclient_Bottom_Up_8.png, 0
+============================================
+FILENAME: at.tomtasche.reader_Top_Down_68.png
+Touch Target Detector>> Interactive Elements: 514 | Violating Elements: 496
+
+./Data/at.tomtasche.reader_Top_Down_68.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/at.tomtasche.reader_Top_Down_68.png', 'closable', 'text']
+
+at.tomtasche.reader_Top_Down_68.png, 0
 ============================================
 
 All Screens 
 ./Data: 
 Persisting Elements Detector>> Violating Screens: []
 ============================================
+FILENAME: com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png
+Touch Target Detector>> Interactive Elements: 205 | Violating Elements: 195
+
+./Data/com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png', 'closable', 'text']
+
+com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png, 0
+============================================
 FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
-Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+Touch Target Detector>> Interactive Elements: 19 | Violating Elements: 14
 
 ./Data/com.gianlu.dnshero_Bottom_Up_3.png:
 Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
 
 com.gianlu.dnshero_Bottom_Up_3.png, 0
+============================================
+FILENAME: ac.robinson.mediaphone_Bottom_Up_4.png
+Touch Target Detector>> Interactive Elements: 0 | Violating Elements: 0
+
+./Data/ac.robinson.mediaphone_Bottom_Up_4.png:
+Expanding Sections Detector>> Expanding elements: NoExpandingDetected
+
+ac.robinson.mediaphone_Bottom_Up_4.png, 0
+============================================
+FILENAME: com.cgogolin.library_Bottom_Up_0.png
+Touch Target Detector>> Interactive Elements: 30 | Violating Elements: 20
+
+./Data/com.cgogolin.library_Bottom_Up_0.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.cgogolin.library_Bottom_Up_0.png', 'closable', 'text']
+
+com.cgogolin.library_Bottom_Up_0.png, 0
+============================================
+FILENAME: ca.mimic.apphangar_Bottom_Up_0.png
+Touch Target Detector>> Interactive Elements: 36 | Violating Elements: 34
+
+./Data/ca.mimic.apphangar_Bottom_Up_0.png:
+Expanding Sections Detector>> Expanding elements: NoExpandingDetected
+
+ca.mimic.apphangar_Bottom_Up_0.png, 0
+============================================
+FILENAME: com.developerfromjokela.motioneyeclient_Bottom_Up_8.png
+Touch Target Detector>> Interactive Elements: 30 | Violating Elements: 27
+
+./Data/com.developerfromjokela.motioneyeclient_Bottom_Up_8.png:
+Expanding Sections Detector>> Expanding elements: NoExpandingDetected
+
+com.developerfromjokela.motioneyeclient_Bottom_Up_8.png, 0
+============================================
+FILENAME: at.tomtasche.reader_Top_Down_68.png
+Touch Target Detector>> Interactive Elements: 514 | Violating Elements: 496
+
+./Data/at.tomtasche.reader_Top_Down_68.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/at.tomtasche.reader_Top_Down_68.png', 'closable', 'text']
+
+at.tomtasche.reader_Top_Down_68.png, 0
 ============================================
 
 All Screens 
 ./Data: 
 Persisting Elements Detector>> Violating Screens: []
 ============================================
+FILENAME: com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png
+============================================
+FILENAME: com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png
+============================================
+FILENAME: com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png
+Touch Target Detector>> Interactive Elements: 96 | Violating Elements: 86
+
+./Data/com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png', 'closable', 'text']
+
+com.aaronhalbert.nosurfforreddit_Bottom_Up_6.png, 0
+============================================
 FILENAME: com.gianlu.dnshero_Bottom_Up_3.png
-Touch Target Detector>> Interactive Elements: 11 | Violating Elements: 6
+Touch Target Detector>> Interactive Elements: 19 | Violating Elements: 14
 
 ./Data/com.gianlu.dnshero_Bottom_Up_3.png:
 Expanding Sections Detector>> Expanding elements: ['./Data/com.gianlu.dnshero_Bottom_Up_3.png', 'closable', 'text']
 
 com.gianlu.dnshero_Bottom_Up_3.png, 0
+============================================
+FILENAME: ac.robinson.mediaphone_Bottom_Up_4.png
+Touch Target Detector>> Interactive Elements: 0 | Violating Elements: 0
+
+./Data/ac.robinson.mediaphone_Bottom_Up_4.png:
+Expanding Sections Detector>> Expanding elements: NoExpandingDetected
+
+ac.robinson.mediaphone_Bottom_Up_4.png, 0
+============================================
+FILENAME: com.cgogolin.library_Bottom_Up_0.png
+Touch Target Detector>> Interactive Elements: 30 | Violating Elements: 20
+
+./Data/com.cgogolin.library_Bottom_Up_0.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/com.cgogolin.library_Bottom_Up_0.png', 'closable', 'text']
+
+com.cgogolin.library_Bottom_Up_0.png, 0
+============================================
+FILENAME: ca.mimic.apphangar_Bottom_Up_0.png
+Touch Target Detector>> Interactive Elements: 36 | Violating Elements: 34
+
+./Data/ca.mimic.apphangar_Bottom_Up_0.png:
+Expanding Sections Detector>> Expanding elements: NoExpandingDetected
+
+ca.mimic.apphangar_Bottom_Up_0.png, 0
+============================================
+FILENAME: com.developerfromjokela.motioneyeclient_Bottom_Up_8.png
+Touch Target Detector>> Interactive Elements: 30 | Violating Elements: 27
+
+./Data/com.developerfromjokela.motioneyeclient_Bottom_Up_8.png:
+Expanding Sections Detector>> Expanding elements: NoExpandingDetected
+
+com.developerfromjokela.motioneyeclient_Bottom_Up_8.png, 0
+============================================
+FILENAME: at.tomtasche.reader_Top_Down_68.png
+Touch Target Detector>> Interactive Elements: 514 | Violating Elements: 496
+
+./Data/at.tomtasche.reader_Top_Down_68.png:
+Expanding Sections Detector>> Expanding elements: ['./Data/at.tomtasche.reader_Top_Down_68.png', 'closable', 'text']
+
+at.tomtasche.reader_Top_Down_68.png, 0
 ============================================
 
 All Screens 

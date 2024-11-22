@@ -39,7 +39,7 @@ def checkTouchTarget(screenshot_path, xml_path, min_size=(48, 48)):
 				if elements[8][0] == 'clickable' and elements[8][1] =='true' and elements[16][1] != '[0,0][0,0]':
 					# Find all bounding boxes in the XML file
 					bounds = getBounds(elements[16][1])
-					print('Original Bounds: ', bounds)
+					#print('Original Bounds: ', bounds)
 					first = bounds[1][0] - bounds[0][0]
 					second = bounds[1][1] - bounds[0][1]
 					if first <48 or second <48:
@@ -48,7 +48,7 @@ def checkTouchTarget(screenshot_path, xml_path, min_size=(48, 48)):
 						violations+=1
 
 					else:
-						violations_this_crop = 0
+						violations_this_crop = False
 						im = Image.open(screenshot_path)
 
 						# Cropping Region
@@ -61,7 +61,7 @@ def checkTouchTarget(screenshot_path, xml_path, min_size=(48, 48)):
 						highlight_color = (255,0,0,128)
 						
 						im1 = im.crop((crop_left, crop_top, crop_right, crop_bottom))
-						print(f"Cropped area position in original image: ({crop_left}, {crop_top}) to ({crop_right}, {crop_bottom})")
+						#print(f"Cropped area position in original image: ({crop_left}, {crop_top}) to ({crop_right}, {crop_bottom})")
 
 						savePath = "./Code/detectors/Visual/UIED-master/data/input/" + str(screenshot_path.split('/')[-1])
 						im1 = im1.save(savePath)
@@ -74,13 +74,13 @@ def checkTouchTarget(screenshot_path, xml_path, min_size=(48, 48)):
 									#print(file_name)
 									with open("./Code/detectors/Visual/UIED-master/data/output/ip/" + file_name, "r") as file:
 										data = json.load(file)
-										print('JSON DATA: ',data)
+										#print('JSON DATA: ',data)
 									for i in range(len(data["compos"])):
 										height = data["compos"][i]['height']
 										width = data["compos"][i]['width']
 										if height < 48 or width < 48:
 											violations += 1
-											violations_this_crop += 1
+											violations_this_crop = True
 										else:
 											nonViolations += 1
 
@@ -91,16 +91,26 @@ def checkTouchTarget(screenshot_path, xml_path, min_size=(48, 48)):
 										os.remove("./Code/detectors/Visual/UIED-master/data/output/ip/" + file_name)
 								else:
 									os.remove("./Code/detectors/Visual/UIED-master/data/output/ip/" +file_name)
-						if violations_this_crop >= 0:
-							draw = ImageDraw.Draw(im)
+
+						# If there's a violation in this crop, use the dimensions of the cropped image and annotate the source image
+						if violations_this_crop:
+							save_folder = './Code/annotation_touch'
+							annotated_img_name = f"annotation_touch_{os.path.basename(screenshot_path)}"
+							
+							# Add additional annotations to existing images
+							if os.path.exists(os.path.join(save_folder, annotated_img_name)):
+								im = Image.open(os.path.join(save_folder, annotated_img_name))
+								draw = ImageDraw.Draw(im)
+							else:
+								draw = ImageDraw.Draw(im)
+
 							highlight_color = (255,0,0)
 							draw.rectangle([crop_left, crop_top, crop_right, crop_bottom], outline=highlight_color, width=3)
-							save_folder = './Code/highlights'
 
 							if not os.path.exists(save_folder):
 								os.makedirs(save_folder)
 
-							modified_image_path = os.path.join(save_folder, f"highlighted_{os.path.basename(screenshot_path)}")
+							modified_image_path = os.path.join(save_folder, annotated_img_name)
 							im.save(modified_image_path)
 
 
