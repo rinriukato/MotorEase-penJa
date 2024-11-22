@@ -9,11 +9,8 @@ import threading
 from app.pages.root import App
 import app.ModelRunner
 from app.AnimatedGIF import AnimatedGif
-import app.setup.venv
-import app.setup.glove
-import app.pages.gloveSetting
-import app.pages.modelFinished
-import app.pages.home
+import app.setup.venv, app.setup.glove
+import app.pages.gloveSetting, app.pages.modelFinished, app.pages.home
 APP = App()
 
 

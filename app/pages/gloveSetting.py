@@ -6,9 +6,8 @@ from ttkbootstrap.constants import *
 
 # Import Modules
 from app.pages.root import App
-import app.pages.gloveDownload
+import app.pages.gloveDownload, app.pages.home
 import app.setup.glove
-import app.pages.home
 APP = App()
 
 

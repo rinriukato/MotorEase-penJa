@@ -1,6 +1,5 @@
 # Import Libraries
-import os
-import shutil
+import os, shutil
 import tkinter as tk
 from tkinter import ttk
 import ttkbootstrap as ttk
@@ -9,9 +8,8 @@ import tkinter.filedialog
 
 # Import Modules
 from app.pages.root import App
-import app.pages.gloveDownload
-import app.pages.modelRunning
 import app.setup.glove
+import app.pages.gloveDownload, app.pages.modelRunning
 APP = App()
 
 def display():

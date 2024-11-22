@@ -26,15 +26,5 @@ class AnimatedGif(ttk.Frame):
         self.after(self.framerate, self.next_frame)
 
     def next_frame(self):
-        """Update the image for each frame"""
         self.img_container.configure(image=next(self.image_cycle))
         self.after(self.framerate, self.next_frame)
-
-if __name__ == "__main__":
-
-    app = ttk.Window("Animated GIF", themename="superhero")
-
-    gif = AnimatedGif(app)
-    gif.pack(fill=BOTH, expand=YES)
-
-    app.mainloop()

@@ -10,8 +10,7 @@ from app.pages.root import App
 import app.ModelRunner
 from app.AnimatedGIF import AnimatedGif
 import app.setup.glove
-import app.pages.gloveSetting
-import app.pages.modelFinished
+import app.pages.gloveSetting, app.pages.modelFinished
 APP = App()
 
 
@@ -32,9 +31,7 @@ def start():
     thread = threading.Thread(target=model_thread)
     thread.start()
 
-def model_thread():
-    # Get preferred GloVe model
-    model = app.setup.glove.get_preferred_glove_model()
+def model_thread():  
     app.ModelRunner.run_MotorEase()
     app.pages.modelFinished.display()
 

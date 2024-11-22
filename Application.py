@@ -4,9 +4,6 @@ import tkinter as tk
 from tkinter import ttk
 import ttkbootstrap as ttk
 
-# Import Modules
-import app.Setup
-
 # Import Pages
 from app.pages.root import App
 import app.pages.gloveSetting

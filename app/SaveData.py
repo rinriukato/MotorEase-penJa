@@ -1,5 +1,4 @@
 import json
-import os
 
 SAVE_FILE = "./save.json"
 
