@@ -24,7 +24,7 @@ Congfig = importlib.import_module("detectors.Visual.UIED-master.config.CONFIG_UI
 def RunDetectors(data_folder):
 	print(">> Extracting Path\n")
 	txt = open("AccessibilityReportTEXT.txt", "a")
-	txt = open("predictions2.txt", "a")
+	#txt = open("predictions2.txt", "a")
 	file_extensions = ['.png', '.xml']
 	files = []
 	print(">> Getting Files and Screenshots\n")
