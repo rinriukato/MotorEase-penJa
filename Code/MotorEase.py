@@ -80,7 +80,7 @@ def RunDetectors(data_folder):
 			print("===== Running Icon Distances =====")
 			distances = getDistance(image, xml)
 			print(distances)
-			txt.write(str(image.split('/')[-1]) + ', ' + str(distances) + "\n")
+			txt.write(str(image.split('/')[-1]) + ':\nIcon Distances>>  ' + str(distances) + "\n")
 			print("\n")
 
 			#for testing
