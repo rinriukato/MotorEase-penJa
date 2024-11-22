@@ -1,5 +1,8 @@
 import os, platform, subprocess
-from app.Config import VENV_DIR, MODEL_FILE
+from app.setup.venv import VENV_DIR
+import app.setup.glove
+
+MODEL_FILE = "./Code/MotorEase.py"
 
 def get_venv_python():
     # Get the path to the virtual environment's Python executable

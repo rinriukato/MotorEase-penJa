@@ -1,0 +1,89 @@
+{
+    "img_shape": [
+        128,
+        798,
+        3
+    ],
+    "compos": [
+        {
+            "id": 1,
+            "class": "Compo",
+            "column_min": 307,
+            "row_min": 0,
+            "column_max": 320,
+            "row_max": 6,
+            "width": 13,
+            "height": 6
+        },
+        {
+            "id": 2,
+            "class": "Compo",
+            "column_min": 71,
+            "row_min": 36,
+            "column_max": 114,
+            "row_max": 54,
+            "width": 43,
+            "height": 18
+        },
+        {
+            "id": 3,
+            "class": "Compo",
+            "column_min": 119,
+            "row_min": 38,
+            "column_max": 137,
+            "row_max": 54,
+            "width": 18,
+            "height": 16
+        },
+        {
+            "id": 4,
+            "class": "Compo",
+            "column_min": 143,
+            "row_min": 36,
+            "column_max": 177,
+            "row_max": 54,
+            "width": 34,
+            "height": 18
+        },
+        {
+            "id": 5,
+            "class": "Compo",
+            "column_min": 178,
+            "row_min": 40,
+            "column_max": 188,
+            "row_max": 54,
+            "width": 10,
+            "height": 14
+        },
+        {
+            "id": 6,
+            "class": "Compo",
+            "column_min": 265,
+            "row_min": 36,
+            "column_max": 289,
+            "row_max": 54,
+            "width": 24,
+            "height": 18
+        },
+        {
+            "id": 7,
+            "class": "Compo",
+            "column_min": 291,
+            "row_min": 40,
+            "column_max": 311,
+            "row_max": 59,
+            "width": 20,
+            "height": 19
+        },
+        {
+            "id": 8,
+            "class": "Compo",
+            "column_min": 313,
+            "row_min": 38,
+            "column_max": 351,
+            "row_max": 54,
+            "width": 38,
+            "height": 16
+        }
+    ]
+}

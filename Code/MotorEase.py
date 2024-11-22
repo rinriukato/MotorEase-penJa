@@ -1,4 +1,5 @@
 print(">> Starting MotorEase\n")
+import json
 import os
 #from application.app.folder.file import func_name
 from detectors.Visual.TouchTarget import checkTouchTarget
@@ -42,9 +43,44 @@ def RunDetectors(data_folder):
 	# 	except EOFError as e: 
 	# 		print(f"EOFError: {e}")
 
+	# All glove file paths
+	GLOVE_MODELS = {
+    	"6B": {
+			"50d": "glove.6B.50d.txt",
+			"100d": "glove.6B.100d.txt",
+			"200d": "glove.6B.200d.txt",
+			"300d": "glove.6B.300d.txt",
+		},
+		"42B": {
+			"300d": "glove.42B.300d.txt",
+		},
+		"840B": {
+			"300d": "glove.840B.300d.txt",
+		}
+	}
 
+	DEFAULT_MODEL = {
+		"tokens": "6B",
+		"vectors": "50d"
+	}
+
+	# Get preferred model
+	if os.path.exists('./save.json'):
+		with open('./save.json', 'r') as f:
+			save = json.load(f)
+	
+		if 'glove_model' in save:
+			glove_model = save['glove_model']
+		else:
+			glove_model = DEFAULT_MODEL
+
+	else:
+		glove_model = DEFAULT_MODEL
+
+	# Load GloVe model
+	glove_model = "./Code/" + GLOVE_MODELS[glove_model['tokens']][glove_model['vectors']]
 	model = {}
-	with open("./Code/glove.42B.300d.txt", 'r', encoding='utf-8') as file:
+	with open(glove_model, 'r', encoding='utf-8') as file:
 		for line in file:
 			parts = line.split()
 			word = parts[0]

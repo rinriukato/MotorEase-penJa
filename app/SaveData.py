@@ -1,9 +1,14 @@
 import json
 import os
-from app.Config import SAVE_FILE
+
+SAVE_FILE = "./save.json"
+
 
 INITIAL_SAVE_DATA = {
-    "setupComplete": False
+    "preferredModel":{
+        "tokens": "4B",
+        "vectors": "50d"
+    }
 }
 
 def save_data(data):
@@ -15,6 +20,8 @@ def load_data():
         with open(SAVE_FILE, "r") as file:
             return json.load(file)
     except FileNotFoundError:
+        with open(SAVE_FILE, "w") as file:
+            json.dump(INITIAL_SAVE_DATA, file, indent=4)
         return INITIAL_SAVE_DATA
     except json.JSONDecodeError:
         return INITIAL_SAVE_DATA
