@@ -16,8 +16,8 @@ def display():
     APP.clear()
 
     # Label
-    progress_label = tk.Label(APP.root, text="Select image files to begin.", name="progress_label")
-    progress_label.place(relx=0.50, rely=0.15, anchor="center")
+    label = tk.Label(APP.root, text="Select image files to begin.", name="label")
+    label.place(relx=0.50, rely=0.15, anchor="center")
     
     # File picker
     file_picker = ttk.Entry(APP.root, name="file_picker", width=50)
@@ -41,8 +41,9 @@ def display():
     run_button = ttk.Button(APP.root, text="Run Model", command=begin_model, width=20)
     run_button.place(relx=0.5, rely=0.84, anchor="center")
 
+
 def update_label(text):
-    progress_label = APP.root.nametowidget("progress_label")
+    progress_label = APP.root.nametowidget("label")
     progress_label["text"] = text
     APP.update()
 
