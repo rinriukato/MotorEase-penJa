@@ -18,11 +18,11 @@ def display():
     glove_label = tk.Label(APP.root, text="Select a GloVe model:")
     glove_label.pack(pady=10)
 
-    # Combobox
-    glove_combobox = ttk.Combobox(APP.root, values=app.setup.glove.get_possible_glove_models())
+    # Dropdown menu
+    glove_models = app.setup.glove.get_possible_glove_models()
+    glove_combobox = ttk.Combobox(APP.root, values=glove_models, state="readonly")
     glove_combobox.pack(pady=10)
     glove_combobox.bind("<<ComboboxSelected>>", check_glove)
-    
     APP.update()
 
 
@@ -52,7 +52,7 @@ def check_glove(value):
         
     else:
         # Button to download model
-        download_button = ttk.Button(APP.root, name="selectBtn", text="Download GloVe Model", bootstyle=PRIMARY, command=lambda: start_download(selected_model))
+        download_button = ttk.Button(APP.root, name="selectBtn", text="Install GloVe Model", bootstyle=PRIMARY, command=lambda: start_download(selected_model))
         download_button.pack(pady=10)
     
 def start_download(model):

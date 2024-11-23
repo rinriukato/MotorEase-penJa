@@ -94,7 +94,6 @@ def extract_glove_model(tokens = next(iter(GLOVE_ZIPS))):
 
     print("Extracting GloVe: " + GLOVE_ZIPS[tokens])
     subprocess.check_call(["unzip", "./Code/" + GLOVE_ZIPS[tokens], "-d", "./Code/"])
-    subprocess.check_call(["rm", "./Code/" + GLOVE_ZIPS[tokens]])
 
 
 

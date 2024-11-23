@@ -5,7 +5,7 @@ SAVE_FILE = "./save.json"
 
 INITIAL_SAVE_DATA = {
     "preferredModel":{
-        "tokens": "4B",
+        "tokens": "6B",
         "vectors": "50d"
     }
 }
