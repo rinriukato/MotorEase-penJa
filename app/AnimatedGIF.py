@@ -5,9 +5,10 @@ from itertools import cycle
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 from PIL import Image, ImageTk, ImageSequence
-
+from app.pages.root import App
+APP = App()
 class AnimatedGif(ttk.Frame):
-    def __init__(self, master):
+    def __init__(self, master, resize=None):
         super().__init__(master, width=400, height=300)
 
         # open the GIF and create a cycle iterator
@@ -15,7 +16,13 @@ class AnimatedGif(ttk.Frame):
         with Image.open(file_path) as im:
             # create a sequence
             sequence = ImageSequence.Iterator(im)
-            images = [ImageTk.PhotoImage(s) for s in sequence]
+            
+            if resize:
+                # Resize frames
+                images = [ImageTk.PhotoImage(s.resize(APP.size(resize[0], resize[1]))) for s in sequence]
+            else:
+                images = [ImageTk.PhotoImage(s) for s in sequence]
+
             self.image_cycle = cycle(images)
 
             # length of each frame

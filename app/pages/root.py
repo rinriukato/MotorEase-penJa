@@ -22,7 +22,9 @@ class App(Singleton):
 
         self.root = tk.Tk()
         self.root.title("MotorEase")
-        self.root.geometry("600x300")
+        size = self.size(320, 180)
+        self.root.geometry(f"{size[0]}x{size[1]}")
+        self.root.resizable(False, False)
 
     def run(self):
         self.root.mainloop()
@@ -33,3 +35,12 @@ class App(Singleton):
     
     def update(self):
         self.root.update()
+
+    def size(self, w, h):
+        return (self.width(w), self.height(h))
+
+    def width(self, input):
+        return int(self.root.winfo_screenheight() * input / 1080)
+    
+    def height(self, input):
+        return int(self.root.winfo_screenheight() * input / 1080)

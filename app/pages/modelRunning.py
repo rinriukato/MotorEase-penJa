@@ -22,9 +22,9 @@ def display():
     glove_label.pack(pady=10)
 
     # GIF
-    settings_gif = AnimatedGif(APP.root)
+    settings_gif = AnimatedGif(APP.root, resize=(100, 100))
     settings_gif.pack(fill=BOTH, expand=YES)
-    settings_gif.place(relx=0.5, rely=0.7, anchor="center")
+    settings_gif.place(relx=0.5, rely=0.6, anchor="center")
     
 def start():
     # Start download thread

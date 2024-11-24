@@ -22,9 +22,9 @@ def display():
     glove_label.pack(pady=10)
 
     # GIF
-    settings_gif = AnimatedGif(APP.root)
+    settings_gif = AnimatedGif(APP.root, resize=(100, 100))
     settings_gif.pack(fill=BOTH, expand=YES)
-    settings_gif.place(relx=0.5, rely=0.7, anchor="center")
+    settings_gif.place(relx=0.5, rely=0.6, anchor="center")
 
     start()
 
@@ -39,11 +39,12 @@ def setup_thread():
 
         # Setup virtual environment
         APP.root.nametowidget("label").config(text="Creating virtual environment...")
-        app.setup.venv.create_virtualenv()
+        if not app.setup.venv.create_virtualenv():
+            return
 
         # Install dependencies
         APP.root.nametowidget("label").config(text="Installing dependencies...")
-        app.setup.venv.install_dependencies()
+        #app.setup.venv.install_dependencies()
 
     # Display next page
     preferred_glove = app.setup.glove.get_preferred_glove_model()
