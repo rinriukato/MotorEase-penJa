@@ -44,7 +44,7 @@ def setup_thread():
 
         # Install dependencies
         APP.root.nametowidget("label").config(text="Installing dependencies...")
-        #app.setup.venv.install_dependencies()
+        app.setup.venv.install_dependencies()
 
     # Display next page
     preferred_glove = app.setup.glove.get_preferred_glove_model()
