@@ -1,2 +1,32 @@
-Code/.venv/
+# Exclude virtual environments
+venv/
+venv_3.11/
+
+# Large datasets or unnecessary text files
 Code/glove.42B.300d.txt
+Code/glove.6B.200d.txt
+Code/AccessibilityReportTEXT.txt
+
+# Exclude all __pycache__ directories and compiled Python files
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude specific files in the project
+Code/MotorEase.py
+Code/detectors/Visual/TouchTarget.py
+Code/detectors/Visual/UIED-master/data/Input/placeholder.rtf
+MotorEase.py
+
+# Ignore all files in data/input
+Code/detectors/Visual/UIED-master/data/input/
+
+# General exclusions for temporary files
+*.log
+*.tmp
+*.bak
+
+# Exclude system files
+.DS_Store
+Thumbs.db
