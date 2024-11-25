@@ -107,6 +107,7 @@ Set the global version of Python to 3.12.
     ```pyenv global 3.11.0```
 5) If needed, you can switch back to Python 3.9
     ```pyenv global 3.9.0```
+    
 
 
 

@@ -109,7 +109,9 @@ os.chdir(MotorEase_PATH)
 
 
 AppPath = MotorEase_PATH + 'Data'
-RunDetectors(AppPath) 
+RunDetectors(AppPath)
+
+
 
 
 
