@@ -24,7 +24,7 @@ Congfig = importlib.import_module("detectors.Visual.UIED-master.config.CONFIG_UI
 def RunDetectors(data_folder):
 	print(">> Extracting Path\n")
 	txt = open("AccessibilityReportTEXT.txt", "a")
-	txt = open("predictions2.txt", "a")
+	#txt = open("predictions2.txt", "a")
 	file_extensions = ['.png', '.xml']
 	files = []
 	print(">> Getting Files and Screenshots\n")
@@ -44,7 +44,7 @@ def RunDetectors(data_folder):
 
 
 	model = {}
-	with open("./Code/glove.42B.300d.txt", 'r', encoding='utf-8') as file:
+	with open("./Code/glove.6B.300d.txt", 'r', encoding='utf-8') as file:
 		for line in file:
 			parts = line.split()
 			word = parts[0]
@@ -80,7 +80,7 @@ def RunDetectors(data_folder):
 			print("===== Running Icon Distances =====")
 			distances = getDistance(image, xml)
 			print(distances)
-			txt.write(str(image.split('/')[-1]) + ', ' + str(distances) + "\n")
+			txt.write(str(image.split('/')[-1]) + ':\nIcon Distances>>  ' + str(distances) + "\n")
 			print("\n")
 
 			#for testing
@@ -108,7 +108,7 @@ MotorEase_PATH = "./"
 os.chdir(MotorEase_PATH)
 
 
-AppPath = MotorEase_PATH + 'data'
+AppPath = MotorEase_PATH + 'Data'
 RunDetectors(AppPath) 
 
 

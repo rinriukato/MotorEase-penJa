@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-from PIL import Image
+from PIL import Image, ImageDraw
 import cv2
 import os
 import importlib  
@@ -179,11 +179,43 @@ def getDistance(screenshot_path, xml_path):
 							# uniqueDistances[distT] = mod 
 		
 		if len(uniqueDistances.keys()) > 0 and len(uniqueDistances.keys()) < 50:
+			print(bounding_boxes)
+			print(uniqueDistances.keys())
 			print(screenshot_path)
+			annotate_dist(screenshot_path, bounding_boxes)
 			return(1)
 		else:
+			print(bounding_boxes)
+			print(uniqueDistances.keys())
+			print(screenshot_path)
 			return(0)
 
+def annotate_dist(screenshot_path, bounding_boxes):
+	im = Image.open(screenshot_path)
+	save_folder = './Code/annotation_dist'
+	annotated_img_name = f"annotation_dist_{os.path.basename(screenshot_path)}"
+							
+	# Add additional annotations to existing images
+	if os.path.exists(os.path.join(save_folder, annotated_img_name)):
+		im = Image.open(os.path.join(save_folder, annotated_img_name))
+		draw = ImageDraw.Draw(im)
+	else:
+		draw = ImageDraw.Draw(im)
+
+	for bounding_box in bounding_boxes:
+		crop_left = bounding_box[0]
+		crop_top =  bounding_box[1]
+		crop_right = bounding_box[2]
+		crop_bottom = bounding_box[3]
+
+		highlight_color = (0,0,255)
+		draw.rectangle([crop_left, crop_top, crop_right, crop_bottom], outline=highlight_color, width=3)
+
+		if not os.path.exists(save_folder):
+			os.makedirs(save_folder)
+
+		modified_image_path = os.path.join(save_folder, annotated_img_name)
+		im.save(modified_image_path)
 
 		
 

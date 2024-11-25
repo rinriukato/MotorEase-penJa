@@ -13,6 +13,7 @@ import torch
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from gensim.models import KeyedVectors
+
 def find_largest_number(numbers):
 	largest_number = numbers[0] # assume first element is the largest
 	for number in numbers:
@@ -99,6 +100,13 @@ def getBounds(inText):
 
 def detectClosure(imgPath, xmlPath, glove_vectors):
 	# remove for testing
+
+	# Save crop dimensions
+	#crop_left = None
+	#crop_top =  None
+	#crop_right = None
+	#crop_bottom = None
+
 	frames = 1
 	lists = 1
 	if 1 == 0:
@@ -112,6 +120,11 @@ def detectClosure(imgPath, xmlPath, glove_vectors):
 		if largests[0] != None and largests[1] == None:
 			if largests[0][1][1] != [1080, 1794]:
 				im1 = im.crop((largests[0][1][0][0], largests[0][1][0][1], largests[0][1][1][0], largests[0][1][1][1]))
+				#crop_left = largests[0][1][0][0]
+				#crop_top =  largests[0][1][0][1]
+				#crop_right = largests[0][1][1][0]
+				#crop_bottom = largests[0][1][1][1]
+
 				#im1.show()
 				im1.save(saveFile) 
 				frames += 1
@@ -121,6 +134,12 @@ def detectClosure(imgPath, xmlPath, glove_vectors):
 		elif largests[1] != None and largests[0] == None:
 			if largests[1][1][1] != [1080, 1794]:
 				im1 = im.crop((largests[1][1][0][0], largests[1][1][0][1], largests[1][1][1][0], largests[1][1][1][1]))
+
+				#crop_left = largests[1][1][0][0]
+				#crop_top =  largests[1][1][0][1]
+				#crop_right = largests[1][1][1][0]
+				#crop_bottom = largests[1][1][1][1]
+
 				im1.save(saveFile) 
 				lists += 1
 				#print("List1")
@@ -134,8 +153,13 @@ def detectClosure(imgPath, xmlPath, glove_vectors):
 			if (listSize/(imW*imH) > 0.1 and listSize/(imW*imH) < 0.60) or largests[1][1][0][0] == 0:
 				if largests[1][1][1] != [1080, 1794]:
 					im1 = im.crop((largests[1][1][0][0], largests[1][1][0][1], largests[1][1][1][0], largests[1][1][1][1]))
-					im1.save(saveFile)  
 
+					#crop_left = largests[1][1][0][0]
+					#crop_top =  largests[1][1][0][1]
+					#crop_right = largests[1][1][1][0]
+					#crop_bottom = largests[1][1][1][1]
+
+					im1.save(saveFile)  
 					lists += 1
 					#print("List2")
 			   # im1.show()
@@ -143,6 +167,12 @@ def detectClosure(imgPath, xmlPath, glove_vectors):
 			else:
 				if largests[0][1][1] != [1080, 1794]:
 					im1 = im.crop((largests[0][1][0][0], largests[0][1][0][1], largests[0][1][1][0], largests[0][1][1][1]))
+					
+					#crop_left = largests[0][1][0][0]
+					#crop_top =  largests[0][1][0][1]
+					#crop_right = largests[0][1][1][0]
+					#crop_bottom = largests[0][1][1][1]
+
 					im1.save(saveFile) 
 					frames += 1
 	
@@ -179,6 +209,7 @@ def detectClosure(imgPath, xmlPath, glove_vectors):
 		# 	else:
 		# 		return([imgPath, "NotClosable"])
 	#im.close()
+	#print("No Expanding Detected for this dimension: ",crop_left, crop_top, crop_right, crop_bottom)
 	return("NoExpandingDetected")
 
 

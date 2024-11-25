@@ -1,0 +1,49 @@
+============================================
+FILENAME: com.zeusln.zeus_Bottom_Up_1.png
+Touch Target Detector>> Interactive Elements: 58 | Violating Elements: 36
+
+./Data/com.zeusln.zeus_Bottom_Up_1.png:
+Expanding Sections Detector>> Expanding elements: NoExpandingDetected
+
+com.zeusln.zeus_Bottom_Up_1.png:
+Icon Distances>>  1
+============================================
+
+All Screens 
+./Data: 
+Persisting Elements Detector>> Violating Screens: []
+============================================
+FILENAME: com.zeusln.zeus_Bottom_Up_1.png
+Touch Target Detector>> Interactive Elements: 58 | Violating Elements: 36
+
+./Data/com.zeusln.zeus_Bottom_Up_1.png:
+Expanding Sections Detector>> Expanding elements: NoExpandingDetected
+
+com.zeusln.zeus_Bottom_Up_1.png:
+Icon Distances>>  1
+============================================
+
+All Screens 
+./Data: 
+Persisting Elements Detector>> Violating Screens: []
+============================================
+FILENAME: com.zeusln.zeus_Bottom_Up_1.png
+Touch Target Detector>> Interactive Elements: 58 | Violating Elements: 36
+
+./Data/com.zeusln.zeus_Bottom_Up_1.png:
+Expanding Sections Detector>> Expanding elements: NoExpandingDetected
+
+============================================
+FILENAME: com.zeusln.zeus_Bottom_Up_1.png
+Touch Target Detector>> Interactive Elements: 58 | Violating Elements: 36
+
+./Data/com.zeusln.zeus_Bottom_Up_1.png:
+Expanding Sections Detector>> Expanding elements: NoExpandingDetected
+
+com.zeusln.zeus_Bottom_Up_1.png:
+Icon Distances>>  1
+============================================
+
+All Screens 
+./Data: 
+Persisting Elements Detector>> Violating Screens: []
