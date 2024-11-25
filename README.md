@@ -70,40 +70,42 @@ The MotorEase code and data has been permanently archived on Zenodo at: [https:/
 
 ## Update Python Environment to Python 3.11
 
--If you have not done so, please try MotorEase on Python 3.9.13 and Pip 23.3.2 to ensure functionality.
+- If you have not done so, please try MotorEase on Python 3.9.13 and Pip 23.3.2 to ensure functionality.
 1) Check that your current version of Python is 3.9.13 using the command  
-    ```python3 --version```
+    - ```python3 --version```
 2) Next step would be to install Python 3.11 using `apt` if on Ubunntu/Debian. Use the following commands 
-    ```sudo add-apt-repository ppa:deadsnakes/ppa``` followed by 
-    ```sudo apt update``` and 
-    ```sudo apt install python3.11 python3.11-venv python3.11-dev```
+    - ```sudo add-apt-repository ppa:deadsnakes/ppa``` followed by 
+    - ```sudo apt update``` and 
+    - ```sudo apt install python3.11 python3.11-venv python3.11-dev```
   for the Python version and it's associated virtual environment.
-3) Create a new Python Virtual Environment in the MotorEase project directory using Python 3.11.
-    ```python3.11 -m venv venv_3.11```
+3) switch to Python 3.11
+   - ```pyenv global 3.11```
+4) Create a new Python Virtual Environment in the MotorEase project directory specifically the Code folder, using Python 3.11.
+   - ```python3.11 -m venv venv_3.11```
   Once the environment is created, activate it using
-    ```source venv_3.11/bin/activate```
-4) Install the requirements.txt in the virtual environment.
-    ```pip install -r requirements.txt```
-5) To see which dependencies are outdated use this command
-    ```pip list --outdated```
-6) Update all of the packages using this command.
-    ```pip install --upgrade -r requirements.txt```
-7) To reflect the newest dependencies added and updated in the requirements file, use the following command.
-    ```pip freeze > requirements.txt```
-8) Run MotorEase to see that it functions as expected.
-    ```python3 MotorEase.py```
+    - ```source venv_3.11/bin/activate```
+5) Install the requirements.txt in the virtual environment.
+    - ```pip install -r requirements.txt```
+6) To see which dependencies are outdated use this command
+    - ```pip list --outdated```
+7) Update all of the packages using this command.
+    - ```pip install --upgrade -r requirements.txt```
+8) To reflect the newest dependencies added and updated in the requirements file, use the following command.
+    - ```pip freeze > requirements.txt```
+9) Run MotorEase to see that it functions as expected.
+    - ```python3 MotorEase.py```
 
 ## Switching Between Python Versions
 - If needed, you can switch between Python versions using `pyenv` for managing different versions.
 1) You would first need to install `pyenv`.
     ```curl https://pyenv.run | bash```
 2) Navigate to the home/user directory on Linux/MacOS/wsl and locate `.bashrc` or `.zshrc` file and add the following code for the exporting path of `pyenv`. 
-export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init --path)"
-eval "$(pyenv virtualenv-init -)"
+- export PATH="$HOME/.pyenv/bin:$PATH"
+- eval "$(pyenv init --path)"
+- eval "$(pyenv virtualenv-init -)"
 4) Install Python 3.11 using `pyenv`.
     ```pyenv install 3.11.0```
-Set the global version of Python to 3.12.
+Set the global version of Python to 3.11.
     ```pyenv global 3.11.0```
 5) If needed, you can switch back to Python 3.9
     ```pyenv global 3.9.0```
