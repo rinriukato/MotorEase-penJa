@@ -1,2 +1,7 @@
 Code/.venv/
-Code/glove.42B.300d.txt
+Code/venv/
+Code/glove.*.txt
+Code/glove.*.zip
+build/
+dist/
+save.json
